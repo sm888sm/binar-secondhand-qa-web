@@ -1,0 +1,137 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 28,
+        "name": "User searches and views a product",
+        "description": "",
+        "id": "use-search-product;user-searches-and-views-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2705780700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user enters the product name in the search field",
+            "match": {
+              "location": "SellerSearchProduct.inputProductName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1330361900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "presses the Enter key",
+            "match": {
+              "location": "SellerSearchProduct.submitSearchProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239150400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the search results should display the product name, category Hobi and price Rp 8.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hobi",
+                  "offset": 61
+                },
+                {
+                  "val": "Rp 8.000.000",
+                  "offset": 76
+                }
+              ],
+              "location": "SellerSearchProduct.displaySearchProductItem(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "User clicks the product to open the product page",
+        "description": "",
+        "id": "use-search-product;user-clicks-the-product-to-open-the-product-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1644448400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks on the desired product from the search results",
+            "match": {
+              "location": "SellerSearchProduct.clickSearchProductItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3021857100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user is redirected to the product details page",
+            "match": {
+              "location": "SellerSearchProduct.redirectToProductPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2183722500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elektronik",
+                  "offset": 48
+                },
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 60
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 74
+                },
+                {
+                  "val": "Seller QA Group 03 Wave 10",
+                  "offset": 87
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 115
+                }
+              ],
+              "location": "SellerAddProduct.productPublishSuccess(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Use Search Product",
+    "description": "",
+    "id": "use-search-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/07 User Search Product.feature",
+    "tags": []
+  }
+]

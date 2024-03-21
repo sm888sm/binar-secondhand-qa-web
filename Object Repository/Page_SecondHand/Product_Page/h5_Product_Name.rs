@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Product_Name</name>
+   <tag></tag>
+   <elementGuidId>8f2042f6-dc34-41b8-8012-e723e317be08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/section[1]/section[1]/div[1]/div[2]/div[1]/div[1]/h5[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title.fs-5.fw-bolder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>20ceffc0-0575-4eee-904a-2c3c96a8a871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title fs-5 fw-bolder</value>
+      <webElementGuid>05d00a95-b242-486d-bb0e-6b1b97212310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Laptop </value>
+      <webElementGuid>a9a8ba6e-3ec9-4431-8495-885194ac24d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/h5[@class=&quot;card-title fs-5 fw-bolder&quot;]</value>
+      <webElementGuid>764e8a15-b554-41c8-bb7e-e101e38865fb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

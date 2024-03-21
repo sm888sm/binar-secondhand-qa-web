@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "703244F2CA1829BB3E918DDBAC99951F",
+  "keywordClasses": [
+    {
+      "name": "BuyerApproveThenCancelOffer",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Keluar</name>
+   <tag></tag>
+   <elementGuidId>0f79dbd6-d45d-4a1b-bde9-36b58d912642</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@name='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > form > button[name=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c936c0e4-650a-423e-909b-292ec19e2c40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ef12514b-b2f1-4bf1-831d-4ceae64019e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>b00dc416-1e3f-4727-b0e3-88e16fbac19d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link text-decoration-none</value>
+      <webElementGuid>95824fe0-d722-49f0-b8f0-24e32a08ea6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            
+            Keluar
+</value>
+      <webElementGuid>98308004-616a-4488-9847-4671375cdaad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[3]/form[1]/button[@class=&quot;btn btn-link text-decoration-none&quot;]</value>
+      <webElementGuid>6fe17037-d78d-453e-a99e-b7f8876dc4c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@name='button'])[2]</value>
+      <webElementGuid>0ffb38a5-f64d-45da-9f9e-12572d7a71b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li[3]/form/button</value>
+      <webElementGuid>370e0d84-ed77-43a4-b0da-6e83ba6844a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/following::button[1]</value>
+      <webElementGuid>ebf1a4ad-4bba-44f1-a82e-7da6f936624a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='John'])[1]/following::button[1]</value>
+      <webElementGuid>36dcad8a-a939-417f-9fd8-c087906bbbf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/preceding::button[1]</value>
+      <webElementGuid>5662c496-2085-4257-ae9e-15de1ef11146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan RamadhanBanyak diskon!'])[1]/preceding::button[2]</value>
+      <webElementGuid>085ec462-870d-44b9-b282-09459ef825d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/form/button</value>
+      <webElementGuid>b5be5e66-c682-40d3-9726-762ead0f866f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = 'button' and @type = 'submit' and (text() = '
+            
+            Keluar
+' or . = '
+            
+            Keluar
+')]</value>
+      <webElementGuid>7a28b9a2-eb98-4df6-8982-d9549de34f0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

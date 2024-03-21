@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC906 Seller Set Product Status As Cancelled Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8678ea9-933a-4b47-adc0-a92a0d9d3ce3</testCaseGuid>
+</TestCaseEntity>

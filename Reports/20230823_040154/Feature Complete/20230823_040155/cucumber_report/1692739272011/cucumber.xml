@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.772137">
+<testcase classname="Seller Delete Product" name="The seller deletes a product" time="27.772137">
+<system-out><![CDATA[Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+And the user navigates to the to-be-deleted product page....................passed
+When the seller clicks "Delete" button......................................passed
+Then the page redirects to "Daftar Jual Saya" page..........................passed
+And the deleted product doesn't exist in the product list...................passed
+]]></system-out>
+</testcase>
+</testsuite>

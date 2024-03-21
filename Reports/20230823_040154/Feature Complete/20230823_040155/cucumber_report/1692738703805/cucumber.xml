@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="144.771709">
+<testcase classname="Seller Preview And Add New Product" name="Seller previews a new product with an empty product category" time="40.862173">
+<system-out><![CDATA[Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+And the seller navigates to the "Add New Product" page......................passed
+When the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Preview" button..........................................passed
+Then an error message for the empty product category should be displayed....passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Preview And Add New Product" name="Seller previews a new product with an empty product name" time="33.88027">
+<system-out><![CDATA[When the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Preview" button..........................................passed
+Then an error message for the empty product name should be displayed........passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Preview And Add New Product" name="Seller previews a new product with an empty product price" time="24.960763">
+<system-out><![CDATA[When the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Preview" button..........................................passed
+Then an error message for the empty product price should be displayed.......passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Preview And Add New Product" name="Seller previews a new product with an empty product description" time="19.195924">
+<system-out><![CDATA[When the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Preview" button..........................................passed
+Then an error message for the empty product description should be displayed.passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Preview And Add New Product" name="Seller previews a new product with all valid details" time="18.937388">
+<system-out><![CDATA[When the seller fills valid the to-be-previewed product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Preview" button..........................................passed
+Then the to-be-previewed product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Preview And Add New Product" name="Seller publishes the previewed product" time="6.935191">
+<system-out><![CDATA[When the seller clicks on the "Terbitkan" button on product page............passed
+Then the "Terbitkan" button disappears......................................passed
+And the product page refreshes and the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta.passed
+]]></system-out>
+</testcase>
+</testsuite>

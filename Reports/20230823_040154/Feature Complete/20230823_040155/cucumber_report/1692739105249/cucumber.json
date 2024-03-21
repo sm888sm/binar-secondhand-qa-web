@@ -1,0 +1,256 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 30,
+        "name": "The notification list on the navbar displays the product",
+        "description": "",
+        "id": "seller-approve-then-cancel-offer;the-notification-list-on-the-navbar-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38504726600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the buyer negotiates for a product",
+            "match": {
+              "location": "Shared.buyerNegotiateProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13133686400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4564433000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicks on the \"Notifikasi\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickNotificationButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320773600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 64
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 94
+                }
+              ],
+              "location": "SellerRejectOffer.verifyNotificationDisplaysProduct(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "The notification list page displays the product",
+        "description": "",
+        "id": "seller-approve-then-cancel-offer;the-notification-list-page-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4379684400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the seller clicks on the \"Penawaran produk\" notification",
+            "match": {
+              "location": "SellerRejectOffer.clickProductOnNotificationNavbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345664500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 55
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 85
+                }
+              ],
+              "location": "SellerRejectOffer.clickProductOnNotificationPage(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "The seller accepts a product offer",
+        "description": "",
+        "id": "seller-approve-then-cancel-offer;the-seller-accepts-a-product-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4721446100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the seller clicks on the \"Terima\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.clickAcceptButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397996300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the the negotiated product item displays \"Penawaran produk diterima\" text",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.verifyAcceptedProduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 705036800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the the negotiated product item displays \"Status\" and \"Hubungi di\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.verifyAcceptedProductButtons()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "The seller cancels a product offer",
+        "description": "",
+        "id": "seller-approve-then-cancel-offer;the-seller-cancels-a-product-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4453338300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the seller clicks \"Status\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.clickStatusButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5872283400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the seller clicks \"Batalkan transaksi\" button and clicks \"Kirim\"",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.clickCancelButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363116400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the the negotiated product item displays \"Penjualan dibatalkan\" text",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.verifyCancelledProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Approve Then Cancel Offer",
+    "description": "",
+    "id": "seller-approve-then-cancel-offer",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/10 Seller Approve Then Cancel Offer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

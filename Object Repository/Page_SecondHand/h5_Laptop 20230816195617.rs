@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Laptop 20230816195617</name>
+   <tag></tag>
+   <elementGuidId>7f79f96f-f49d-43b3-ac94-3a0d22a4ff94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.card-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div/a/div/div/h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>c903f0b7-97ef-4da8-ac72-6c67396205fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title</value>
+      <webElementGuid>6edf4f93-8dda-4465-9a18-b5362d15ed8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Laptop 20230816195617</value>
+      <webElementGuid>08b79aaf-b1e1-4281-8354-c73dc99690d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]/h5[@class=&quot;card-title&quot;]</value>
+      <webElementGuid>987928f9-82e7-447a-96a3-ec98e839cbc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div/a/div/div/h5</value>
+      <webElementGuid>7a71a80b-c9f1-4e04-b7d3-dc03d23161e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 5.000.000'])[1]/preceding::h5[1]</value>
+      <webElementGuid>2eebd331-4724-4026-9dcf-bf0210adfaa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jual'])[1]/preceding::h5[2]</value>
+      <webElementGuid>72170223-40a0-4e18-a4d1-e30057bdbb24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Laptop 20230816195617']/parent::*</value>
+      <webElementGuid>d3b01560-e983-4869-b1ae-e4d4878f4f58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/h5</value>
+      <webElementGuid>1029be93-d37c-4d53-8a2a-c13f851576d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Laptop 20230816195617' or . = 'Laptop 20230816195617')]</value>
+      <webElementGuid>dd22231c-9752-4465-8341-95fb89b47d3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

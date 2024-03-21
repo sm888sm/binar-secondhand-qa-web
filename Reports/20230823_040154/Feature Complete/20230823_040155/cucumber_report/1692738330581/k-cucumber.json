@@ -1,0 +1,399 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "4077ca7a-1cf5-4fca-a165-8717956af56c",
+        "line": 30,
+        "name": "User Edit Profile Negative - Empty City",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-city;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13153733000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user logs in with previously created account",
+            "match": {
+              "location": "UserEditProfile.loginNewAccount()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "878f1e05-882a-4afc-8f7c-f67a04124ed8"
+          },
+          {
+            "result": {
+              "duration": 4106642300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user navigates to \"Edit Profile\" page",
+            "match": {
+              "location": "UserEditProfile.navigateToEditProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "013c9d6f-0ca8-421f-8947-e2e8eaae3a8a"
+          },
+          {
+            "result": {
+              "duration": 19998292800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 78
+                },
+                {
+                  "val": "080989999",
+                  "offset": 119
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidCity(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "256ef1db-19f3-4c5c-9567-aceaef25c44b"
+          },
+          {
+            "result": {
+              "duration": 5748282000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a3516f46-8a65-478c-8c94-933220571eac"
+          },
+          {
+            "result": {
+              "duration": 5023888100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6b3306f2-a39b-4d44-8bec-ae635fc29052"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9f4dabe5-3d13-4ec2-9783-46f0a218e63d",
+        "line": 39,
+        "name": "User Edit Profile Negative - Empty Name",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24691785500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 51
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 72
+                },
+                {
+                  "val": "080989999",
+                  "offset": 113
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidFullName(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ea7aaeba-1bb4-4ab6-89d2-e8663b615afd"
+          },
+          {
+            "result": {
+              "duration": 1395002100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "22d90b19-4c2c-419a-8451-595f5ff109c9"
+          },
+          {
+            "result": {
+              "duration": 5024203300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "914015b6-b30d-41ef-b853-d74014d5fefc"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a6045839-15c8-4555-8955-1275eb6f91e7",
+        "line": 49,
+        "name": "User Edit Profile Negative - Empty Address",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-address;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10355442100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "080989999",
+                  "offset": 100
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidAddress(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "09d306f6-deaf-41a8-86ed-a1371eb5d711"
+          },
+          {
+            "result": {
+              "duration": 1386339700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f2bfeb72-78dc-4795-a7c7-3165fcec4d16"
+          },
+          {
+            "result": {
+              "duration": 5025466700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4f06826f-dbcf-4268-8a20-e120b327901b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "cdebe03b-f60d-4721-8002-58ee0fe52dab",
+        "line": 58,
+        "name": "User Edit Profile Negative - Empty Phone Number",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-phone-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10433316500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 96
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidPhoneNumber(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "eb0c1212-e1a6-44ac-8061-b2780368222a"
+          },
+          {
+            "result": {
+              "duration": 1343736000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8bce210d-481e-4fcd-9d79-f9878f75e41c"
+          },
+          {
+            "result": {
+              "duration": 5026919700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "bb27f61b-ce34-4f94-9672-a533b0d2d56e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2f66fafc-6ee1-4227-902e-9853a4a44ea4",
+        "line": 70,
+        "name": "User Edit Profile Positive",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-positive;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10506854700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 96
+                },
+                {
+                  "val": "080989999",
+                  "offset": 140
+                }
+              ],
+              "location": "UserEditProfile.enterValidData(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d5b8a817-a5f7-4518-9012-91ceca5004aa"
+          },
+          {
+            "result": {
+              "duration": 1359516100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e02fb472-b0b7-4423-b8f2-460d2401a4c4"
+          },
+          {
+            "result": {
+              "duration": 5015767400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user is redirected to the homepage",
+            "match": {
+              "location": "Shared.redirectToHomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8eb671ce-da34-4350-8ba8-fd2ed8d0bd74"
+          },
+          {
+            "result": {
+              "duration": 1359326900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "dd42cd7a-3b5a-402b-9b6a-f4ae11536855"
+          },
+          {
+            "result": {
+              "duration": 825317200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the user\u0027s name John and city Jakarta are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 16
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 30
+                }
+              ],
+              "location": "UserEditProfile.verifyProfileFirstName(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "436484a9-61e5-4257-a6b4-2bf1784c9f79"
+          }
+        ]
+      }
+    ],
+    "name": "User Edit Profile Scenarios",
+    "description": "",
+    "id": "user-edit-profile-scenarios",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/03 User Edit Profile.feature",
+    "tags": []
+  }
+]

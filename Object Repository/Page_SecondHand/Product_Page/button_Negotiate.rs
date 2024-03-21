@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Negotiate</name>
+   <tag></tag>
+   <elementGuidId>53a9ca31-87bf-4bbc-945e-8306583c2a8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/section/section/div/div[2]/div[1]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-lg.btn-primary.fs-6.rounded-4.w-100.mb-3.py-3.fw-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f5867eaa-268b-43a7-8823-b7203cbb94a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg btn-primary fs-6 rounded-4 w-100 mb-3 py-3 fw-bold</value>
+      <webElementGuid>2f1f3610-df8f-4545-a03d-bb8aa23ba33e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>19556243-c4aa-4c35-acb3-a6e5a5fdcd68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#offerModal</value>
+      <webElementGuid>f157f709-589b-4693-b79c-5dc1426edf49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saya tertarik dan ingin nego</value>
+      <webElementGuid>4a14d115-e50a-4a56-ae20-82d45b41a84a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/section[@class=&quot;pt-5 mt-5&quot;]/section[@class=&quot;container my-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;card p-2 rounded-4 shadow border-0&quot;]/div[@class=&quot;card-body&quot;]/button[@class=&quot;btn btn-lg btn-primary fs-6 rounded-4 w-100 mb-3 py-3 fw-bold&quot;]</value>
+      <webElementGuid>c1e71cf7-423a-44fe-9cae-0f0553eb95be</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

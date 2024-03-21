@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC603 Seller Edit Product Negative Empty Product Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f02eda63-0840-43a8-93f7-10cb699a1239</testCaseGuid>
+</TestCaseEntity>

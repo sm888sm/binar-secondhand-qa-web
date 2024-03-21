@@ -1,0 +1,146 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b267e3fa-8773-452c-9a9a-20c4f61617ba",
+        "line": 28,
+        "name": "User searches and views a product",
+        "description": "",
+        "id": "use-search-product;user-searches-and-views-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2726670500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user enters the product name in the search field",
+            "match": {
+              "location": "SellerSearchProduct.inputProductName()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "43456ce2-6fd4-4655-9bb5-66a4d67d3a93"
+          },
+          {
+            "result": {
+              "duration": 1406047600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "presses the Enter key",
+            "match": {
+              "location": "SellerSearchProduct.submitSearchProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5980560b-84d1-4741-9542-0790fdd6f2de"
+          },
+          {
+            "result": {
+              "duration": 1213840000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the search results should display the product name, category Hobi and price Rp 8.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hobi",
+                  "offset": 61
+                },
+                {
+                  "val": "Rp 8.000.000",
+                  "offset": 76
+                }
+              ],
+              "location": "SellerSearchProduct.displaySearchProductItem(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d8cbf4a6-0507-4d33-91b5-2bad30420f77"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8305442c-958c-4b3d-a1b6-55711f9d5af8",
+        "line": 37,
+        "name": "User clicks the product to open the product page",
+        "description": "",
+        "id": "use-search-product;user-clicks-the-product-to-open-the-product-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1617052700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks on the desired product from the search results",
+            "match": {
+              "location": "SellerSearchProduct.clickSearchProductItem()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "75dfcf03-d2a4-44e7-9409-c66b66f71509"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: productID is not matched\r\n\tat com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)\r\n\tat com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)\r\n\tat SellerSearchProduct.redirectToProductPage(SellerSearchProduct.groovy:110)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:264)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.Closure.call(Closure.java:420)\r\n\tat groovy.lang.Closure.call(Closure.java:414)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)\r\n\tat Script1692534660085.run(Script1692534660085.groovy:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:144)\r\n\tat TempTestSuite1692738115695.run(TempTestSuite1692738115695.groovy:36)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:496)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:597)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:329)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:315)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:134)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:114)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:116)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:138)\r\n",
+              "duration": 3021836100,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "the user is redirected to the product details page",
+            "match": {
+              "location": "SellerSearchProduct.redirectToProductPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cf025373-e2e3-44f9-b2b6-63ba4881e7d7"
+          },
+          {
+            "result": {
+              "duration": 2108009900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elektronik",
+                  "offset": 48
+                },
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 60
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 74
+                },
+                {
+                  "val": "Seller QA Group 03 Wave 10",
+                  "offset": 87
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 115
+                }
+              ],
+              "location": "SellerAddProduct.productPublishSuccess(String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2eebd4b4-e5f9-4d73-919c-6a936133b429"
+          }
+        ]
+      }
+    ],
+    "name": "Use Search Product",
+    "description": "",
+    "id": "use-search-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/07 User Search Product.feature",
+    "tags": []
+  }
+]

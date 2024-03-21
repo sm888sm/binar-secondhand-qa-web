@@ -1,0 +1,357 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "12ab3263-bc70-406b-a863-9b62eda8bff8",
+        "line": 29,
+        "name": "User Login Negative - Invalid E-mail",
+        "description": "",
+        "id": "user-login-and-logout-scenarios;user-login-negative---invalid-e-mail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1384933400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks on \"Masuk\"",
+            "match": {
+              "location": "Shared.clickOnMasuk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a774f495-0086-468e-a371-dba8dfd446e2"
+          },
+          {
+            "result": {
+              "duration": 5326338700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user enters an invalid email address johnsmithbinar.com and a valid password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnsmithbinar.com",
+                  "offset": 41
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 81
+                }
+              ],
+              "location": "UserLoginLogout.enterInvalidEmailAddress(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9e518dd2-35a9-4376-a043-665c342391b2"
+          },
+          {
+            "result": {
+              "duration": 4403184400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user clicks on \"Login\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1ba3ffca-ad70-4d4c-8db7-37dfbab81330"
+          },
+          {
+            "result": {
+              "duration": 5022489400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user is still on the login page",
+            "match": {
+              "location": "UserLoginLogout.verifyStillOnLoginPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9732b59a-8044-4851-b3aa-11a22f599daf"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "96a57ae0-e59a-4d05-bce9-b094ccd9adf8",
+        "line": 38,
+        "name": "User Login Negative - Invalid Password",
+        "description": "",
+        "id": "user-login-and-logout-scenarios;user-login-negative---invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9800127300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enters a valid email address QAE10_GR03_seller@binar.com and an invalid password P11S1FO2cCA\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 38
+                },
+                {
+                  "val": "P11S1FO2cCA\u003d",
+                  "offset": 90
+                }
+              ],
+              "location": "UserLoginLogout.enterInvalidPassword(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "571cba9a-93d9-455b-a5ad-02d476f7a671"
+          },
+          {
+            "result": {
+              "duration": 5842915800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks on \"Login\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b947abf4-1caa-448b-8dd1-1860c7cd28e9"
+          },
+          {
+            "result": {
+              "duration": 4308915900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user sees an \"Invalid Email or password\" message",
+            "match": {
+              "location": "UserLoginLogout.verifyErrorMessageLogin()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "2d89465d-411d-4bca-b0b8-c2bd52a48425"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c312675f-5fc3-464f-b27b-6707cd8bd704",
+        "line": 47,
+        "name": "User Login Negative - Empty Password",
+        "description": "",
+        "id": "user-login-and-logout-scenarios;user-login-negative---empty-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7774097100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user enters a valid email address QAE10_GR03_buyer@binar.com and an empty password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_buyer@binar.com",
+                  "offset": 38
+                }
+              ],
+              "location": "UserLoginLogout.enterEmptyPassword(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7cc47ec9-b28c-447f-922e-0558eaa80d6f"
+          },
+          {
+            "result": {
+              "duration": 5987727200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user clicks on \"Login\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c279f6e6-d087-4036-8e55-af9e809d617c"
+          },
+          {
+            "result": {
+              "duration": 5031674300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user is still on the login page",
+            "match": {
+              "location": "UserLoginLogout.verifyStillOnLoginPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9c78897a-ec76-4cf0-b8d5-fd34c6aaded3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "cf6bdf7e-53be-4869-a89b-c2a7291db7e0",
+        "line": 58,
+        "name": "User Login Positive",
+        "description": "",
+        "id": "user-login-and-logout-scenarios;user-login-positive;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6294472700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user enters a valid email address QAE10_GR03_buyer@binar.com a valid password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_buyer@binar.com",
+                  "offset": 38
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 82
+                }
+              ],
+              "location": "UserLoginLogout.enterValidData(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ad8e6e50-5a76-4c60-9a6a-433aae4e4b0d"
+          },
+          {
+            "result": {
+              "duration": 4347075000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user clicks on \"Login\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "dee3bbd0-0496-4920-aff2-0c38a9400612"
+          },
+          {
+            "result": {
+              "duration": 5026899100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user is redirected to the homepage",
+            "match": {
+              "location": "Shared.redirectToHomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "138c5269-ae31-482b-8cbc-be8b3e5fbf35"
+          },
+          {
+            "result": {
+              "duration": 3309347100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e07fc90c-8d08-4974-a9c6-23af5db0d29c"
+          },
+          {
+            "result": {
+              "duration": 566697900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user\u0027s name John is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 16
+                }
+              ],
+              "location": "Shared.verifyProfileFirstName(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "18011429-6ae6-43f8-846f-ace8b9dbc022"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "947a408a-c187-4976-9174-ec0c51d2579f",
+        "line": 60,
+        "name": "User Logout Positive",
+        "description": "",
+        "id": "user-login-and-logout-scenarios;user-logout-positive",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1497624000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user navigates to the home page",
+            "match": {
+              "location": "Shared.navigateToHomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3baf0b6a-3907-49d1-b24b-c3f7e5323dc2"
+          },
+          {
+            "result": {
+              "duration": 1368791600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "c82e504a-01c7-4c67-a1d3-7526f7890f9e"
+          },
+          {
+            "result": {
+              "duration": 1830703700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user clicks on \"Keluar\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogout()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5cf476b8-8106-4bf8-baab-72fa4c55dae3"
+          },
+          {
+            "result": {
+              "duration": 5643527200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user is logged out and sees the \"Masuk\" link",
+            "match": {
+              "location": "UserLoginLogout.confirmLogout()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "93650772-b74a-446c-ac4e-8d3be46ade24"
+          }
+        ]
+      }
+    ],
+    "name": "User Login and Logout Scenarios",
+    "description": "",
+    "id": "user-login-and-logout-scenarios",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/02 User Login Logout.feature",
+    "tags": []
+  }
+]

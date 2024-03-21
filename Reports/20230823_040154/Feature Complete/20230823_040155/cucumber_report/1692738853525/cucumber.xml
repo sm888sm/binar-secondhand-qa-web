@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="142.371683">
+<testcase classname="Seller Edit Product" name="Seller edits a product with an empty product category" time="55.220487">
+<system-out><![CDATA[Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+And the seller navigates to the "Product Saya" page.........................passed
+And the seller clicks on the product........................................passed
+And the seller clicks on the "Edit" button..................................passed
+When the seller leaves the to-be-edited product category field empty and fills valid product name Notebook, price 8000000, description Used notebook and image C://Uploads//laptop-2.jpeg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product category should be displayed....passed
+And the seller remains on the "Edit Product" page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Edit Product" name="Seller edits a product with an empty product name" time="21.787466">
+<system-out><![CDATA[When the seller enters an empty the to-be-edited product name and fills valid product price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product name should be displayed........passed
+And the seller remains on the "Edit Product" page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Edit Product" name="Seller edits a product with an empty product price" time="24.080215">
+<system-out><![CDATA[When the seller leaves the to-be-edited product price field empty and fills valid product name Notebook, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product price should be displayed.......passed
+And the seller remains on the "Edit Product" page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Edit Product" name="Seller edits a product with an empty product description" time="20.552213">
+<system-out><![CDATA[When the seller leaves the to-be-edited product description field empty and fills valid product name Notebook, price 8000000, category 1 and image C://Uploads//laptop-2.jpeg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product description should be displayed.passed
+And the seller remains on the "Edit Product" page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Edit Product" name="Seller edits a product with all valid details" time="20.731302">
+<system-out><![CDATA[When the seller fills valid to-be-edited product name Notebook, price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then the edited product is submitted with valid information Hobi, Rp 8.000.000, Used notebook, Seller QA Group 03 Wave 10, Jakarta.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,566 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "50b181b6-5d1d-4a35-8809-117d158e2163",
+        "line": 31,
+        "name": "Seller adds a new product with an empty product category",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-an-empty-product-category;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13088473900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e318c602-89aa-4949-a252-d1a51325c1f1"
+          },
+          {
+            "result": {
+              "duration": 2326961800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the seller navigates to the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.navigateToAddProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6e04f89d-af15-44c4-bcb5-6ec34818623e"
+          },
+          {
+            "result": {
+              "duration": 38185729900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 80
+                },
+                {
+                  "val": "5000000",
+                  "offset": 94
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 115
+                },
+                {
+                  "val": "C://Uploads//laptop-1.jpg",
+                  "offset": 137
+                }
+              ],
+              "location": "SellerAddProduct.enterInvalidCategory(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4194d8cb-4e00-4509-a0a3-77b3f61009ae"
+          },
+          {
+            "result": {
+              "duration": 9463184900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cce52ec7-9e46-4f58-81a3-8a7987528861"
+          },
+          {
+            "result": {
+              "duration": 960079600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "an error message for the empty product category should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyCategory()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9bf7a786-beca-4d9d-9584-2f9aa486acb7"
+          },
+          {
+            "result": {
+              "duration": 3021276200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the seller remains on the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.verifyRemainOnAddProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cb5bbcb4-2ebe-4ad1-bcd3-c14f7107f0f0"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a2f4ffab-ed68-4500-8563-f40cf7788d93",
+        "line": 41,
+        "name": "Seller adds a new product with an empty product name",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-an-empty-product-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23537998100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000000",
+                  "offset": 70
+                },
+                {
+                  "val": "4",
+                  "offset": 88
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 103
+                },
+                {
+                  "val": "C://Uploads//laptop-1.jpg",
+                  "offset": 125
+                }
+              ],
+              "location": "SellerAddProduct.enterInvalidName(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "18650fc8-346d-4de0-9fb0-f89c7e90087c"
+          },
+          {
+            "result": {
+              "duration": 7135848100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c7d09420-ab12-47ac-80bd-95863ca4e8e8"
+          },
+          {
+            "result": {
+              "duration": 942516100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "an error message for the empty product name should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyName()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "b2485aef-01a6-4fd9-bc9f-12d08129d690"
+          },
+          {
+            "result": {
+              "duration": 3015646900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the seller remains on the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.verifyRemainOnAddProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "433d9236-2d48-4b56-8fa4-34be87f425c4"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "3b04dfb9-a6b6-415f-a224-96314fe04083",
+        "line": 51,
+        "name": "Seller adds a new product with an empty product price",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-an-empty-product-price;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14953298600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 77
+                },
+                {
+                  "val": "4",
+                  "offset": 94
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 109
+                },
+                {
+                  "val": "C://Uploads//laptop-1.jpg",
+                  "offset": 131
+                }
+              ],
+              "location": "SellerAddProduct.enterInvalidPrice(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f3770734-9eb3-4b89-856d-b59907ff07d8"
+          },
+          {
+            "result": {
+              "duration": 9259398400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "817c1642-b064-4672-9b6c-eb3894edf719"
+          },
+          {
+            "result": {
+              "duration": 4515590700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "an error message for the empty product price should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyPrice()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6b43ef7f-8105-4d2d-96ae-c218de182a63"
+          },
+          {
+            "result": {
+              "duration": 3023567500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the seller remains on the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.verifyRemainOnAddProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9a82f284-c4fe-4764-8b49-da87a96e283e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7f92f658-d909-4e23-942d-e804d97efc17",
+        "line": 61,
+        "name": "Seller adds a new product with an empty product description",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-an-empty-product-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19079221700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 83
+                },
+                {
+                  "val": "5000000",
+                  "offset": 97
+                },
+                {
+                  "val": "4",
+                  "offset": 115
+                },
+                {
+                  "val": "C://Uploads//laptop-1.jpg",
+                  "offset": 127
+                }
+              ],
+              "location": "SellerAddProduct.enterInvalidDescription(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "87a071a9-b9e1-4d1e-955a-057c94c15809"
+          },
+          {
+            "result": {
+              "duration": 6791175600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4f077983-b1ec-497e-8e7e-59731a733b13"
+          },
+          {
+            "result": {
+              "duration": 892588700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "an error message for the empty product description should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyDescription()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "56f6be0a-df5c-4b38-b171-8556c3b00129"
+          },
+          {
+            "result": {
+              "duration": 3025602800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the seller remains on the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.verifyRemainOnAddProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7fed891f-30a1-45c0-8f90-5167242f0962"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "bb3a8958-2e88-4748-a4b4-4b99d5f78bd4",
+        "line": 70,
+        "name": "Seller adds a new product with all valid details",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-all-valid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17739125900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the seller fills valid product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 36
+                },
+                {
+                  "val": "5000000",
+                  "offset": 50
+                },
+                {
+                  "val": "4",
+                  "offset": 68
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 83
+                },
+                {
+                  "val": "C://Uploads//laptop-1.jpg",
+                  "offset": 105
+                }
+              ],
+              "location": "SellerAddProduct.enterValidData(String,String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "64b2acbe-26b0-4064-a8cf-63b71f7003f7"
+          },
+          {
+            "result": {
+              "duration": 7922341200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "692f0404-cbfc-4083-ba6e-ad70d9dbb65c"
+          },
+          {
+            "result": {
+              "duration": 2542917800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elektronik",
+                  "offset": 48
+                },
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 60
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 74
+                },
+                {
+                  "val": "Seller QA Group 03 Wave 10",
+                  "offset": 87
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 115
+                }
+              ],
+              "location": "SellerAddProduct.productPublishSuccess(String,String,String,String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "79f25fad-f3a2-49bd-9dfb-e4c62a0f9857"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8f08c617-ea6b-4123-b529-b86c289017d2",
+        "line": 83,
+        "name": "Seller adds a new product with empty profile",
+        "description": "",
+        "id": "seller-add-new-product;seller-adds-a-new-product-with-empty-profile;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1991955800,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "the user navigates to the home page",
+            "match": {
+              "location": "Shared.navigateToHomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "cacd357d-ea8a-47ba-81c6-9c7bfac8d90a"
+          },
+          {
+            "result": {
+              "duration": 2061020700,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8ac6ca8a-e120-46d4-997d-6f1a0bdb541d"
+          },
+          {
+            "result": {
+              "duration": 2011374300,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the user clicks on \"Keluar\"",
+            "match": {
+              "location": "UserLoginLogout.clickLogout()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "59a699bb-940a-4fa7-8bfa-52f6aff5446e"
+          },
+          {
+            "result": {
+              "duration": 25968825300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "the seller is logged in qae_gr03_seller_empty_02@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qae_gr03_seller_empty_02@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 59
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ce263831-8e9e-4bb3-a4fe-475460900814"
+          },
+          {
+            "result": {
+              "duration": 3025676400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the seller navigates to the \"Add New Product\" page",
+            "match": {
+              "location": "SellerAddProduct.navigateToAddProductPage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "511b9349-2d99-4713-90eb-329aceb87a96"
+          },
+          {
+            "result": {
+              "duration": 5026898000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the seller is redirected to the edit profile page",
+            "match": {
+              "location": "SellerAddProduct.redirectToEditProfilePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e27de28f-10ce-45b6-b0e7-c3a025434eba"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Add New Product",
+    "description": "",
+    "id": "seller-add-new-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/04 Seller Add New Product.feature",
+    "tags": []
+  }
+]

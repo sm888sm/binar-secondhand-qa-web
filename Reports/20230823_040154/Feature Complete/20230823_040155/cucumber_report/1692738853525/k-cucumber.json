@@ -1,0 +1,527 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "23b5d5a7-059b-456c-818f-4c0a9aa3d317",
+        "line": 34,
+        "name": "Seller edits a product with an empty product category",
+        "description": "",
+        "id": "seller-edit-product;seller-edits-a-product-with-an-empty-product-category;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13251758300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "851bff50-d2d1-4a4c-a0b9-3fe92dec3eb0"
+          },
+          {
+            "result": {
+              "duration": 6346256900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the seller navigates to the \"Product Saya\" page",
+            "match": {
+              "location": "SellerEditProduct.clickProdukSaya()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "86cce790-567a-4fca-8128-a2a48fcc5b1d"
+          },
+          {
+            "result": {
+              "duration": 1609500900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the seller clicks on the product",
+            "match": {
+              "location": "SellerEditProduct.clickProductToEdit()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ff40a62e-00a6-4bf7-9367-880998683068"
+          },
+          {
+            "result": {
+              "duration": 12945482400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the seller clicks on the \"Edit\" button",
+            "match": {
+              "location": "SellerEditProduct.clickEditButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "12cedc7b-c903-469f-9fa0-4761ed17ba10"
+          },
+          {
+            "result": {
+              "duration": 13151233900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the seller leaves the to-be-edited product category field empty and fills valid product name Notebook, price 8000000, description Used notebook and image C://Uploads//laptop-2.jpeg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebook",
+                  "offset": 93
+                },
+                {
+                  "val": "8000000",
+                  "offset": 109
+                },
+                {
+                  "val": "Used notebook",
+                  "offset": 130
+                },
+                {
+                  "val": "C://Uploads//laptop-2.jpeg",
+                  "offset": 154
+                }
+              ],
+              "location": "SellerEditProduct.enterInvalidCategory(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3a0aff60-a418-41de-8714-7e88f6865f67"
+          },
+          {
+            "result": {
+              "duration": 7244460400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "836505b7-521d-4e38-87e9-e29fb0269a61"
+          },
+          {
+            "result": {
+              "duration": 649729500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "an error message for the empty product category should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyCategory()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "147ebd8c-fb33-4d0a-a75f-41f8cc45d903"
+          },
+          {
+            "result": {
+              "duration": 12810100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the seller remains on the \"Edit Product\" page",
+            "match": {
+              "location": "SellerEditProduct.verifyRemainOnEditPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "03223638-7d3b-48d7-8306-7b137ee98423"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7b3847fc-3755-4698-b8f7-11cbf74631a7",
+        "line": 44,
+        "name": "Seller edits a product with an empty product name",
+        "description": "",
+        "id": "seller-edit-product;seller-edits-a-product-with-an-empty-product-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11608433400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the seller enters an empty the to-be-edited product name and fills valid product price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8000000",
+                  "offset": 87
+                },
+                {
+                  "val": "1",
+                  "offset": 105
+                },
+                {
+                  "val": "Used notebook",
+                  "offset": 120
+                },
+                {
+                  "val": "C://Uploads//laptop-2.jpeg",
+                  "offset": 144
+                }
+              ],
+              "location": "SellerEditProduct.enterInvalidName(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "592a53cb-4631-44c7-b091-bc4e776f738f"
+          },
+          {
+            "result": {
+              "duration": 8196334600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "088ed2ca-9ff9-4e3d-8916-75660a8d53c2"
+          },
+          {
+            "result": {
+              "duration": 1969624600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "an error message for the empty product name should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyName()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1484f43e-9510-497d-b4e6-e65905e9cbaa"
+          },
+          {
+            "result": {
+              "duration": 10357000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the seller remains on the \"Edit Product\" page",
+            "match": {
+              "location": "SellerEditProduct.verifyRemainOnEditPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4227165f-e202-4107-abe9-0a532e059237"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2acb21ba-c285-4cc9-826d-5e54650cc694",
+        "line": 54,
+        "name": "Seller edits a product with an empty product price",
+        "description": "",
+        "id": "seller-edit-product;seller-edits-a-product-with-an-empty-product-price;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10612439400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the seller leaves the to-be-edited product price field empty and fills valid product name Notebook, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebook",
+                  "offset": 90
+                },
+                {
+                  "val": "1",
+                  "offset": 109
+                },
+                {
+                  "val": "Used notebook",
+                  "offset": 124
+                },
+                {
+                  "val": "C://Uploads//laptop-2.jpeg",
+                  "offset": 148
+                }
+              ],
+              "location": "SellerEditProduct.enterInvalidPrice(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "43ee0fca-cf4a-4278-925c-c1d388d26df3"
+          },
+          {
+            "result": {
+              "duration": 9009290900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ebc4aeb6-b820-4ce3-89ff-2b22fa5880e4"
+          },
+          {
+            "result": {
+              "duration": 4443607900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "an error message for the empty product price should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyPrice()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "72405a70-de6c-4381-8018-2f4a54c27893"
+          },
+          {
+            "result": {
+              "duration": 11489300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the seller remains on the \"Edit Product\" page",
+            "match": {
+              "location": "SellerEditProduct.verifyRemainOnEditPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "35dfa030-3fe6-4a3c-94ab-31c2c6aa7e31"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4ef8977a-e08c-49e2-9411-2af033505a85",
+        "line": 64,
+        "name": "Seller edits a product with an empty product description",
+        "description": "",
+        "id": "seller-edit-product;seller-edits-a-product-with-an-empty-product-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12633683300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the seller leaves the to-be-edited product description field empty and fills valid product name Notebook, price 8000000, category 1 and image C://Uploads//laptop-2.jpeg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebook",
+                  "offset": 96
+                },
+                {
+                  "val": "8000000",
+                  "offset": 112
+                },
+                {
+                  "val": "1",
+                  "offset": 130
+                },
+                {
+                  "val": "C://Uploads//laptop-2.jpeg",
+                  "offset": 142
+                }
+              ],
+              "location": "SellerEditProduct.enterInvalidDescription(String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "cdb1b9aa-e73d-4b81-a713-2e7ce535ded3"
+          },
+          {
+            "result": {
+              "duration": 6958389300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3238c79a-8493-4982-9575-74031278bce4"
+          },
+          {
+            "result": {
+              "duration": 936114500,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "an error message for the empty product description should be displayed",
+            "match": {
+              "location": "SellerAddProduct.displayErrorEmptyDescription()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0dcd2eb6-4021-4b78-92b8-98182fd8b97e"
+          },
+          {
+            "result": {
+              "duration": 19523800,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the seller remains on the \"Edit Product\" page",
+            "match": {
+              "location": "SellerEditProduct.verifyRemainOnEditPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "76540ca4-3a02-4ee2-a7d3-0578e276bd77"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "d962c537-ca7c-4a63-a8cd-c1e1259b87ea",
+        "line": 73,
+        "name": "Seller edits a product with all valid details",
+        "description": "",
+        "id": "seller-edit-product;seller-edits-a-product-with-all-valid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10672497500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the seller fills valid to-be-edited product name Notebook, price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebook",
+                  "offset": 49
+                },
+                {
+                  "val": "8000000",
+                  "offset": 65
+                },
+                {
+                  "val": "1",
+                  "offset": 83
+                },
+                {
+                  "val": "Used notebook",
+                  "offset": 98
+                },
+                {
+                  "val": "C://Uploads//laptop-2.jpeg",
+                  "offset": 122
+                }
+              ],
+              "location": "SellerEditProduct.enterValidData(String,String,String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "290e4ad4-c05e-4afe-9fd5-c38c02224ca5"
+          },
+          {
+            "result": {
+              "duration": 7868304500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "clicks on the \"Terbitkan\" button",
+            "match": {
+              "location": "SellerAddProduct.clickTerbitkan()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7779c51d-9e23-4123-8b25-ce599f1a4290"
+          },
+          {
+            "result": {
+              "duration": 2188184000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the edited product is submitted with valid information Hobi, Rp 8.000.000, Used notebook, Seller QA Group 03 Wave 10, Jakarta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hobi",
+                  "offset": 55
+                },
+                {
+                  "val": "Rp 8.000.000",
+                  "offset": 61
+                },
+                {
+                  "val": "Used notebook",
+                  "offset": 75
+                },
+                {
+                  "val": "Seller QA Group 03 Wave 10",
+                  "offset": 90
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 118
+                }
+              ],
+              "location": "SellerEditProduct.productEditSuccess(String,String,String,String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3b66f664-ca6f-4b00-897d-06c0f20593b3"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Edit Product",
+    "description": "",
+    "id": "seller-edit-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/06 Seller Edit Product.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

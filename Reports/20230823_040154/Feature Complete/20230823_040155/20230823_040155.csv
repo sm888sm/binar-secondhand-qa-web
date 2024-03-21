@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Complete,Chrome 116.0.0.0,,,2023-08-23 04:01:57,2023-08-23 04:21:41,19m - 44.348s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/01 User Sign Up,Chrome 116.0.0.0,,,2023-08-23 04:01:57,2023-08-23 04:03:57,1m - 59.746s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:01:57,2023-08-23 04:02:01,4.098s,PASSED
+"runFeatureFile(""Include/features/01 User Sign Up.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:02:01,2023-08-23 04:03:56,1m - 54.765s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:03:56,2023-08-23 04:03:57,0.721s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/02 User Login Logout,Chrome 116.0.0.0,,,2023-08-23 04:03:57,2023-08-23 04:05:27,1m - 30.014s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:03:57,2023-08-23 04:04:00,3.549s,PASSED
+"runFeatureFile(""Include/features/02 User Login Logout.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:04:00,2023-08-23 04:05:26,1m - 25.615s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:05:26,2023-08-23 04:05:27,0.694s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/03 User Edit Profile,Chrome 116.0.0.0,,,2023-08-23 04:05:27,2023-08-23 04:07:43,2m - 16.771s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:05:27,2023-08-23 04:05:30,3.282s,PASSED
+"runFeatureFile(""Include/features/03 User Edit Profile.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:05:30,2023-08-23 04:07:43,2m - 12.647s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:07:43,2023-08-23 04:07:43,0.683s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/04 Seller Add New Product,Chrome 116.0.0.0,,,2023-08-23 04:07:43,2023-08-23 04:11:40,3m - 56.291s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:07:43,2023-08-23 04:07:46,3.056s,PASSED
+"runFeatureFile(""Include/features/04 Seller Add New Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:07:47,2023-08-23 04:11:39,3m - 52.423s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:11:39,2023-08-23 04:11:40,0.655s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/05 Seller Preview And Add New Product,Chrome 116.0.0.0,,,2023-08-23 04:11:40,2023-08-23 04:14:10,2m - 29.885s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:11:40,2023-08-23 04:11:43,3.446s,PASSED
+"runFeatureFile(""Include/features/05 Seller Preview And Add New Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:11:43,2023-08-23 04:14:09,2m - 25.605s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:14:09,2023-08-23 04:14:10,0.687s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/06 Seller Edit Product,Chrome 116.0.0.0,,,2023-08-23 04:14:10,2023-08-23 04:16:37,2m - 27.320s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:14:10,2023-08-23 04:14:13,3.269s,PASSED
+"runFeatureFile(""Include/features/06 Seller Edit Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:14:13,2023-08-23 04:16:36,2m - 23.197s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:16:36,2023-08-23 04:16:37,0.700s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/07 User Search Product,Chrome 116.0.0.0,,,2023-08-23 04:16:54,2023-08-23 04:17:11,16.825s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:16:54,2023-08-23 04:16:57,3.217s,PASSED
+"runFeatureFile(""Include/features/07 User Search Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:16:57,2023-08-23 04:17:10,12.972s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:17:10,2023-08-23 04:17:11,0.632s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/08 Buyer Negotiate Product,Chrome 116.0.0.0,,,2023-08-23 04:17:11,2023-08-23 04:17:49,37.634s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:17:11,2023-08-23 04:17:14,3.240s,PASSED
+"runFeatureFile(""Include/features/08 Buyer Negotiate Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:17:14,2023-08-23 04:17:48,33.589s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:17:48,2023-08-23 04:17:49,0.651s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/09 Seller Reject Product Offer,Chrome 116.0.0.0,,,2023-08-23 04:17:49,2023-08-23 04:18:21,32.699s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:17:49,2023-08-23 04:17:52,3.229s,PASSED
+"runFeatureFile(""Include/features/09 Seller Reject Product Offer.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:17:52,2023-08-23 04:18:21,28.634s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:18:21,2023-08-23 04:18:21,0.681s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/10 Seller Approve Then Cancel Product Offer,Chrome 116.0.0.0,,,2023-08-23 04:18:21,2023-08-23 04:19:45,1m - 23.340s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:18:21,2023-08-23 04:18:24,3.220s,PASSED
+"runFeatureFile(""Include/features/10 Seller Approve Then Cancel Offer.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:18:25,2023-08-23 04:19:44,1m - 19.091s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:19:44,2023-08-23 04:19:45,0.709s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/11 Seller Approve Then Sell Product,Chrome 116.0.0.0,,,2023-08-23 04:19:45,2023-08-23 04:21:08,1m - 23.387s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:19:45,2023-08-23 04:19:48,3.250s,PASSED
+"runFeatureFile(""Include/features/11 Seller Approve Offer Then Sell Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:19:48,2023-08-23 04:21:07,1m - 19.126s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:21:07,2023-08-23 04:21:08,0.687s,PASSED
+,,,,,,,
+Test Cases/01 Web/02 Feature Files/12 Seller Delete Product,Chrome 116.0.0.0,,,2023-08-23 04:21:08,2023-08-23 04:21:41,33.127s,PASSED
+Start setup action : setupTestCase,Chrome 116.0.0.0,,,2023-08-23 04:21:08,2023-08-23 04:21:11,3.265s,PASSED
+"runFeatureFile(""Include/features/12 Seller Delete Product.feature"")",Chrome 116.0.0.0,,,2023-08-23 04:21:12,2023-08-23 04:21:40,28.889s,PASSED
+Start tear down : tearDownTestCase,Chrome 116.0.0.0,,,2023-08-23 04:21:40,2023-08-23 04:21:41,0.675s,PASSED

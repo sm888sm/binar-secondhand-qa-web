@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Laptop 20230817200.      Hobi      Rp 8_84e215</name>
+   <tag></tag>
+   <elementGuidId>f2407f18-e0c2-4d92-a3a8-d88d4520a920</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body.text-decoration-none</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div/a/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf1c8d82-e458-4fb9-b50f-3a5b9d0a9ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body text-decoration-none</value>
+      <webElementGuid>136c41d2-6672-4a64-ad8b-6597727c34e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      Laptop 20230817200...
+      Hobi
+      Rp 8.000.000
+    </value>
+      <webElementGuid>a87df780-3c57-444f-8b53-29d509b21bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;col-12 col-md-4 col-lg-3&quot;]/a[@class=&quot;product-card&quot;]/div[@class=&quot;card px-0 border-0 shadow h-100 pb-4 rounded-4&quot;]/div[@class=&quot;card-body text-decoration-none&quot;]</value>
+      <webElementGuid>1c49463d-43f0-4215-8e1b-f23bde76dc6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div/a/div/div</value>
+      <webElementGuid>12aa2eca-7415-4c21-9839-212578cf692f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div/div</value>
+      <webElementGuid>b1a802e7-2710-4bba-9dc8-afab41769cfa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

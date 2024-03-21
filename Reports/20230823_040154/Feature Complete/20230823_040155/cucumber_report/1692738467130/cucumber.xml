@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="231.539917">
+<testcase classname="Seller Add New Product" name="Seller adds a new product with an empty product category" time="67.055647">
+<system-out><![CDATA[Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+And the seller navigates to the "Add New Product" page......................passed
+When the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product category should be displayed....passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Add New Product" name="Seller adds a new product with an empty product name" time="34.637405">
+<system-out><![CDATA[When the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product name should be displayed........passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Add New Product" name="Seller adds a new product with an empty product price" time="31.756082">
+<system-out><![CDATA[When the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product price should be displayed.......passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Add New Product" name="Seller adds a new product with an empty product description" time="29.792143">
+<system-out><![CDATA[When the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then an error message for the empty product description should be displayed.passed
+And the seller remains on the "Add New Product" page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Add New Product" name="Seller adds a new product with all valid details" time="28.207517">
+<system-out><![CDATA[When the seller fills valid product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg.passed
+And clicks on the "Terbitkan" button........................................passed
+Then the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Add New Product" name="Seller adds a new product with empty profile" time="40.091123">
+<system-out><![CDATA[Given the user navigates to the home page...................................passed
+And the user clicks on "Profil Saya"........................................passed
+And the user clicks on "Keluar".............................................passed
+And the seller is logged in qae_gr03_seller_empty_02@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+When the seller navigates to the "Add New Product" page.....................passed
+Then the seller is redirected to the edit profile page......................passed
+]]></system-out>
+</testcase>
+</testsuite>

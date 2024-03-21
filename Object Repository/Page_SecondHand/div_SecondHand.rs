@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SecondHand</name>
+   <tag></tag>
+   <elementGuidId>fa3b574f-682f-4b6b-a610-3cb7a17d1c9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-6.session-background.d-flex</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>34351a12-3237-4bec-adfb-50c49d86357a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-6 session-background d-flex</value>
+      <webElementGuid>8d5bfc41-1618-434d-aa4a-6d98ee7fa06b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      SecondHand.
+    </value>
+      <webElementGuid>fbbb1996-117e-496b-806a-86b332eecf44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;container-fluid min-height-100vh&quot;]/div[@class=&quot;row min-height-100vh w-100&quot;]/div[@class=&quot;col-6 session-background d-flex&quot;]</value>
+      <webElementGuid>984bd14a-e926-42fd-9a5f-5fb601e32631</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::div[1]</value>
+      <webElementGuid>6838f428-8e30-40cf-aece-935de0745e7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>70065c77-178b-459a-9f7c-b80da1d533f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+      SecondHand.
+    ' or . = '
+      SecondHand.
+    ')]</value>
+      <webElementGuid>173bd12d-c3b0-4217-b2c9-e2cc49c65ef2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

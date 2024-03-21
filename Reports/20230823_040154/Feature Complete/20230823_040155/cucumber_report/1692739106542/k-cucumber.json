@@ -1,0 +1,132 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "6a6ea295-75fc-42d5-bd46-4f0e6def8181",
+        "line": 33,
+        "name": "Buyer negotiates the price for a product",
+        "description": "",
+        "id": "buyer-negoiate-product-positive;buyer-negotiates-the-price-for-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13267729400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_buyer@binar.com",
+                  "offset": 23
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 50
+                }
+              ],
+              "location": "Shared.loginBuyer(String,String)"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "cad1a2bc-ddb2-4eab-94f8-5a673e062c26"
+          },
+          {
+            "result": {
+              "duration": 6583692100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user navigates to the product page",
+            "match": {
+              "location": "BuyerNegotiateProduct.navigateToProductPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b444cc51-f0b9-46f2-b9f6-20514c1b3c24"
+          },
+          {
+            "result": {
+              "duration": 4392713200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the buyer clicks on the \"Saya tertarik dan ingin nego\" button",
+            "match": {
+              "location": "BuyerNegotiateProduct.clickNegotiateProduct()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d36d79ec-a61b-4917-aae7-b0cd6c01cb55"
+          },
+          {
+            "result": {
+              "duration": 2713654500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "enters a negotiated offer price 3000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000000",
+                  "offset": 32
+                }
+              ],
+              "location": "BuyerNegotiateProduct.enterNegotiatedPrice(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a394f28f-66fe-423c-b58f-991ff54f7e80"
+          },
+          {
+            "result": {
+              "duration": 4361783200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks the \"Kirim\" button",
+            "match": {
+              "location": "BuyerNegotiateProduct.clickCommitButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d41e15f4-cd3c-436e-82fe-8858ee72ee73"
+          },
+          {
+            "result": {
+              "duration": 326131100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the button becomes disabled and the button text becomes \"Menunggu respon penjual\"",
+            "match": {
+              "location": "BuyerNegotiateProduct.confirmButtonDisabled()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f12b665a-2972-4d15-82f4-1111411bb543"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Buyer Negoiate Product Positive",
+    "description": "",
+    "id": "buyer-negoiate-product-positive",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/08 Buyer Negotiate Product.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

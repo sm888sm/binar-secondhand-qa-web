@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC405 Seller Add New Product Negative Empty Description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>180b6398-009a-424a-84f1-f7cf07f1a2c3</testCaseGuid>
+</TestCaseEntity>

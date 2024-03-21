@@ -1,0 +1,375 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 30,
+        "name": "User Edit Profile Negative - Empty City",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-city;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13153733000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user logs in with previously created account",
+            "match": {
+              "location": "UserEditProfile.loginNewAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4106642300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user navigates to \"Edit Profile\" page",
+            "match": {
+              "location": "UserEditProfile.navigateToEditProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19998292800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 78
+                },
+                {
+                  "val": "080989999",
+                  "offset": 119
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidCity(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5748282000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5023888100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "User Edit Profile Negative - Empty Name",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24691785500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 51
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 72
+                },
+                {
+                  "val": "080989999",
+                  "offset": 113
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidFullName(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1395002100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5024203300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 49,
+        "name": "User Edit Profile Negative - Empty Address",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-address;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10355442100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "080989999",
+                  "offset": 100
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidAddress(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1386339700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5025466700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "User Edit Profile Negative - Empty Phone Number",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-negative---empty-phone-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10433316500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 96
+                }
+              ],
+              "location": "UserEditProfile.enterInvalidPhoneNumber(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1343736000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5026919700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user remains on the profile edit page",
+            "match": {
+              "location": "UserEditProfile.verifyRemainOnProfilePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "User Edit Profile Positive",
+        "description": "",
+        "id": "user-edit-profile-scenarios;user-edit-profile-positive;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10506854700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Doe",
+                  "offset": 50
+                },
+                {
+                  "val": "3",
+                  "offset": 75
+                },
+                {
+                  "val": "Jl. Budi Mulia 01",
+                  "offset": 96
+                },
+                {
+                  "val": "080989999",
+                  "offset": 140
+                }
+              ],
+              "location": "UserEditProfile.enterValidData(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1359516100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the user clicks on \"Save Changes\"",
+            "match": {
+              "location": "UserEditProfile.clickSaveProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5015767400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user is redirected to the homepage",
+            "match": {
+              "location": "Shared.redirectToHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1359326900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 825317200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the user\u0027s name John and city Jakarta are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 16
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 30
+                }
+              ],
+              "location": "UserEditProfile.verifyProfileFirstName(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User Edit Profile Scenarios",
+    "description": "",
+    "id": "user-edit-profile-scenarios",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/03 User Edit Profile.feature",
+    "tags": []
+  }
+]

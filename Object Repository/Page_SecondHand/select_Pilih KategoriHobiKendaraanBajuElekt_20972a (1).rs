@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pilih KategoriHobiKendaraanBajuElekt_20972a (1)</name>
+   <tag></tag>
+   <elementGuidId>5b7c21ae-6e2e-45ad-9609-c6c144a1e3ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#product_category_id</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='product_category_id']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4f11df99-841b-4eb7-a676-79f02f54aad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select rounded-4 p-3</value>
+      <webElementGuid>0448f39a-d388-4a21-862f-ee2d9ec8bb27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>3d49581c-53ca-468e-8058-9e09031b9565</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>product[category_id]</value>
+      <webElementGuid>41844fcb-6956-49ed-86b5-e8f936d862cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_category_id</value>
+      <webElementGuid>e9ff329e-8c3b-4be8-8bb7-0eaf8f6e8210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Kategori
+Hobi
+Kendaraan
+Baju
+Elektronik
+Kesehatan</value>
+      <webElementGuid>21a5d06c-0d0d-4f04-8175-b41ea819d795</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product_category_id&quot;)</value>
+      <webElementGuid>a446ac9e-7bc4-47f4-85bd-b6e9321b2e04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='product_category_id']</value>
+      <webElementGuid>d29f8f36-9def-4bae-9aee-316efccb0b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::select[1]</value>
+      <webElementGuid>81f5ef80-a248-4098-95c0-5b15213d8b85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harga Produk'])[1]/following::select[1]</value>
+      <webElementGuid>dcac280b-bee6-4c19-b4e3-033939068f4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/preceding::select[1]</value>
+      <webElementGuid>58437e8f-c136-4c14-addf-feb2be6a8ea2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::select[1]</value>
+      <webElementGuid>3c7224aa-d509-4f43-ae1f-893ceef36ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>f660e064-0636-410b-ac0b-14c9099dc309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'product[category_id]' and @id = 'product_category_id' and (text() = 'Pilih Kategori
+Hobi
+Kendaraan
+Baju
+Elektronik
+Kesehatan' or . = 'Pilih Kategori
+Hobi
+Kendaraan
+Baju
+Elektronik
+Kesehatan')]</value>
+      <webElementGuid>05bc3971-e7d0-488c-a4a7-c43f54fa6279</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="113.50937">
+<testcase classname="User Sign Up" name="User Sign Up Negative - Invalid Name" time="22.371123">
+<system-out><![CDATA[Given the user clicks on "Masuk"............................................passed
+When the user clicks on "Daftar di sini"....................................passed
+And the user enters their full name empty, email address and password QJblfja5Cso=.passed
+And the user clicks on "Daftar".............................................passed
+Then the user is still on the sign-up page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Sign Up" name="User Sign Up Negative - Invalid E-mail" time="19.45361">
+<system-out><![CDATA[When the user enters their full name John Smith, invalid email address and password QJblfja5Cso=.passed
+And the user clicks on "Daftar".............................................passed
+Then the user is still on the sign-up page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Sign Up" name="User Sign Up Negative - Invalid Password" time="26.870099">
+<system-out><![CDATA[When the user enters their full name John Smith, email address and empty password.passed
+And the user clicks on "Daftar".............................................passed
+Then the user is still on the sign-up page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Sign Up" name="User Sign Up Negative - Already Registered E-mail" time="24.577975">
+<system-out><![CDATA[When the user enters their full name John Smith, already registered email address QAE10_GR03_buyer@binar.com and password QJblfja5Cso=.passed
+And the user clicks on "Daftar".............................................passed
+Then the error message "Email has already been taken" is displayed..........passed
+And the user is still on the sign-up page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Sign Up" name="User Sign Up Positive" time="20.236563">
+<system-out><![CDATA[When the user enters their full name John Smith, unique email address and password QJblfja5Cso=.passed
+And the user clicks on "Daftar".............................................passed
+Then the user is redirected to the homepage.................................passed
+And the user clicks on "Profil Saya"........................................passed
+Then the user's name John is displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

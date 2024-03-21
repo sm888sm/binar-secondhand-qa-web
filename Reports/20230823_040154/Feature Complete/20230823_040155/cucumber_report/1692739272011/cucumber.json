@@ -1,0 +1,110 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "The seller deletes a product",
+        "description": "",
+        "id": "seller-delete-product;the-seller-deletes-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13187198000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6569743200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user navigates to the to-be-deleted product page",
+            "match": {
+              "location": "SellerDeleteProduct.navigateToProductPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1368084300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the seller clicks \"Delete\" button",
+            "match": {
+              "location": "SellerDeleteProduct.clickDeleteButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5019172400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the page redirects to \"Daftar Jual Saya\" page",
+            "match": {
+              "location": "SellerDeleteProduct.redirectToProductListPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1621909100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the deleted product doesn\u0027t exist in the product list",
+            "match": {
+              "location": "SellerDeleteProduct.verifyProductNotExist()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Delete Product",
+    "description": "  I want to use this template for my feature file",
+    "id": "seller-delete-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/12 Seller Delete Product.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC304 User Edit Profile Negative Empty Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c894daef-6cc2-4574-9839-4b844c25f730</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.735981">
+<testcase classname="Buyer Negoiate Product Positive" name="Buyer negotiates the price for a product" time="32.735981">
+<system-out><![CDATA[Given the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=........passed
+And the user navigates to the product page..................................passed
+When the buyer clicks on the "Saya tertarik dan ingin nego" button..........passed
+And enters a negotiated offer price 3000000.................................passed
+And clicks the "Kirim" button...............................................passed
+Then the button becomes disabled and the button text becomes "Menunggu respon penjual".passed
+]]></system-out>
+</testcase>
+</testsuite>

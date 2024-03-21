@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC602 Seller Edit Product Negative Empty Product Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de0ddeb1-c4b9-4fdd-b2bc-f3a98e43893c</testCaseGuid>
+</TestCaseEntity>

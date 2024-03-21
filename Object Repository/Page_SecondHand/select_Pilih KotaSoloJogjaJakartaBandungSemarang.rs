@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Pilih KotaSoloJogjaJakartaBandungSemarang</name>
+   <tag></tag>
+   <elementGuidId>07f2b302-940a-4f2c-8d70-6255e29c38d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#user_city_id</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='user_city_id']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>91e0fd15-48b6-436d-9e71-720d4cd67af2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select rounded-4 p-3</value>
+      <webElementGuid>678184dd-2039-4b11-948a-4a8e22f84a4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>4cb28030-01fd-4f01-a8e5-5920b200aa5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>user[city_id]</value>
+      <webElementGuid>6a71ff07-c1de-4198-a80a-392b83cadba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>user_city_id</value>
+      <webElementGuid>d1c35611-ad02-479b-9ecc-0edc78ff2a6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Kota
+Solo
+Jogja
+Jakarta
+Bandung
+Semarang</value>
+      <webElementGuid>4a513740-c621-46a0-a2b8-b5e6cad62d76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user_city_id&quot;)</value>
+      <webElementGuid>f6781d04-8c2a-4055-946e-a1b44e79af3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='user_city_id']</value>
+      <webElementGuid>d02c83aa-f48e-425a-8bab-767f174d8a4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/following::select[1]</value>
+      <webElementGuid>e29d12a5-9885-49bf-b61d-de2a7c617d22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::select[1]</value>
+      <webElementGuid>ef20219a-613b-4d52-8b6a-74894ccf06d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat'])[1]/preceding::select[1]</value>
+      <webElementGuid>86495175-3738-48b4-82bc-0e0e84cd0bdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Handphone'])[1]/preceding::select[1]</value>
+      <webElementGuid>097d673d-1f2a-4564-97c8-20d788661276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>91e238fb-c474-47cc-884f-890d9401d2d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'user[city_id]' and @id = 'user_city_id' and (text() = 'Pilih Kota
+Solo
+Jogja
+Jakarta
+Bandung
+Semarang' or . = 'Pilih Kota
+Solo
+Jogja
+Jakarta
+Bandung
+Semarang')]</value>
+      <webElementGuid>b5f08129-e11e-43ec-83f7-ec0d8b9ddba9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

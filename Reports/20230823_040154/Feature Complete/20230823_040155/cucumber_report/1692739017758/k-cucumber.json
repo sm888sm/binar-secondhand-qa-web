@@ -1,0 +1,145 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "e00d0142-dbcd-4d14-ac7a-a86099cd82aa",
+        "line": 28,
+        "name": "User searches and views a product",
+        "description": "",
+        "id": "use-search-product;user-searches-and-views-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2705780700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user enters the product name in the search field",
+            "match": {
+              "location": "SellerSearchProduct.inputProductName()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "af6b59c9-9a4f-41a2-ab68-185508178023"
+          },
+          {
+            "result": {
+              "duration": 1330361900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "presses the Enter key",
+            "match": {
+              "location": "SellerSearchProduct.submitSearchProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5edb6f44-7b60-407f-9729-c98203945942"
+          },
+          {
+            "result": {
+              "duration": 1239150400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the search results should display the product name, category Hobi and price Rp 8.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hobi",
+                  "offset": 61
+                },
+                {
+                  "val": "Rp 8.000.000",
+                  "offset": 76
+                }
+              ],
+              "location": "SellerSearchProduct.displaySearchProductItem(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c17d39e1-1eb2-4197-b8bc-e0f91bc0c2b3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4324121f-0bd5-4fb7-9843-236fdbd9722e",
+        "line": 37,
+        "name": "User clicks the product to open the product page",
+        "description": "",
+        "id": "use-search-product;user-clicks-the-product-to-open-the-product-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1644448400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user clicks on the desired product from the search results",
+            "match": {
+              "location": "SellerSearchProduct.clickSearchProductItem()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "55f53170-6b8c-436b-8121-babcf583aa28"
+          },
+          {
+            "result": {
+              "duration": 3021857100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user is redirected to the product details page",
+            "match": {
+              "location": "SellerSearchProduct.redirectToProductPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "dd164dac-3ffe-4825-89fc-8565c0c4bb17"
+          },
+          {
+            "result": {
+              "duration": 2183722500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elektronik",
+                  "offset": 48
+                },
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 60
+                },
+                {
+                  "val": "Used laptop",
+                  "offset": 74
+                },
+                {
+                  "val": "Seller QA Group 03 Wave 10",
+                  "offset": 87
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 115
+                }
+              ],
+              "location": "SellerAddProduct.productPublishSuccess(String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c6a397e6-e620-4dff-a694-58ca516fbe72"
+          }
+        ]
+      }
+    ],
+    "name": "Use Search Product",
+    "description": "",
+    "id": "use-search-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/07 User Search Product.feature",
+    "tags": []
+  }
+]

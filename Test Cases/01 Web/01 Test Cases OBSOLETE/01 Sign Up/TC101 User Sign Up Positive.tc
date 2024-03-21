@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC101 User Sign Up Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c8799be-ef51-4f01-a1c3-9a28dbdf19b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4e1e18f-2207-49b8-89aa-1e70a8df73c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4e1e18f-2207-49b8-89aa-1e70a8df73c6</id>
+      <masked>false</masked>
+      <name>BuyerEmail</name>
+   </variable>
+</TestCaseEntity>

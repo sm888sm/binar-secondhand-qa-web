@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete_Image_1</name>
+   <tag></tag>
+   <elementGuidId>7d30685c-a01d-42aa-9500-041092e1a212</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/section[1]/section[1]/section[1]/div[1]/form[1]/div[5]/div[1]/button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-close.btn-close-white.position-absolute.top-0.start-100.translate-middle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8db0645d-86ff-4b53-8b1a-8e7fd2c2e9dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6208503e-ee2b-482f-a46a-7e61c5a68ce8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>this.parentElement.remove()</value>
+      <webElementGuid>05871af0-b434-411e-9a89-99e9c4ed024a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-close btn-close-white position-absolute top-0 start-100 translate-middle</value>
+      <webElementGuid>dc656fa0-4c2e-4afd-a0e7-dc008c430c9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>close</value>
+      <webElementGuid>2972d6e3-ff6f-44be-b786-3823ce46a152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;input-images&quot;)/div[@class=&quot;form-image-preview position-relative rounded-4 overflow-hidden&quot;]/button[@class=&quot;btn-close btn-close-white position-absolute top-0 start-100 translate-middle&quot;]</value>
+      <webElementGuid>fd33f716-423a-4f19-9a02-3a01f5f2cf9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

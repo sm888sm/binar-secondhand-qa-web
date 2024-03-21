@@ -1,0 +1,191 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b331708a-0f96-4f88-b509-f698f4f90578",
+        "line": 29,
+        "name": "The notification list on the navbar displays the product",
+        "description": "",
+        "id": "seller-reject-product-offer;the-notification-list-on-the-navbar-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13117982400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c19f812e-fcb7-46fe-b96c-b5bb9c141027"
+          },
+          {
+            "result": {
+              "duration": 4509847200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on the \"Notifikasi\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickNotificationButton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "777fa9c2-9ae3-47af-b317-c7190d57c10a"
+          },
+          {
+            "result": {
+              "duration": 313154500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 64
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 94
+                }
+              ],
+              "location": "SellerRejectOffer.verifyNotificationDisplaysProduct(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e17dd349-455a-4da5-b260-223958b1ac71"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "6617ea6f-8072-4794-b2a3-e57c4ce599b3",
+        "line": 37,
+        "name": "The notification list page displays the product",
+        "description": "",
+        "id": "seller-reject-product-offer;the-notification-list-page-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4372747100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the seller clicks on the \"Penawaran produk\" notification",
+            "match": {
+              "location": "SellerRejectOffer.clickProductOnNotificationNavbar()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b57b3fbe-4ceb-4742-95b0-ad14f21a50f3"
+          },
+          {
+            "result": {
+              "duration": 324686000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 55
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 85
+                }
+              ],
+              "location": "SellerRejectOffer.clickProductOnNotificationPage(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cbb4c7e8-ba5b-49bf-8435-8283b4961cf7"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "42fb4be9-7848-433e-89c8-205608b66a1f",
+        "line": 39,
+        "name": "Seller rejects a product offer",
+        "description": "",
+        "id": "seller-reject-product-offer;seller-rejects-a-product-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4746566500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the seller clicks on the \"Tolak\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickAcceptButton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "2570caab-6655-4ac3-8330-e061fd6de931"
+          },
+          {
+            "result": {
+              "duration": 397030600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the the negotiated product item displays \"Penawaran produk ditolak\" text",
+            "match": {
+              "location": "SellerRejectOffer.verifyRejectedProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "bc01fef2-2d0d-4ae8-b3a0-97ce5aef0183"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Reject Product Offer",
+    "description": "",
+    "id": "seller-reject-product-offer",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/09 Seller Reject Product Offer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

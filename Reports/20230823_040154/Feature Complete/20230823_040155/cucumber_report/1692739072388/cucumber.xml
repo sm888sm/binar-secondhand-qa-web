@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="27.791183">
+<testcase classname="Seller Reject Product Offer" name="The notification list on the navbar displays the product" time="17.944951">
+<system-out><![CDATA[Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+When clicks on the "Notifikasi" button......................................passed
+Then the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Reject Product Offer" name="The notification list page displays the product" time="4.700359">
+<system-out><![CDATA[When the seller clicks on the "Penawaran produk" notification...............passed
+Then the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Reject Product Offer" name="Seller rejects a product offer" time="5.145873">
+<system-out><![CDATA[When the seller clicks on the "Tolak" button................................passed
+Then the the negotiated product item displays "Penawaran produk ditolak" text.passed
+]]></system-out>
+</testcase>
+</testsuite>

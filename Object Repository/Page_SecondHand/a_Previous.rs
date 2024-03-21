@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Previous</name>
+   <tag></tag>
+   <elementGuidId>3af5bb90-cef3-4357-92b3-6699f997b67e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.previous_page</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'← Previous')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c0868518-65d4-4d78-8fd7-14c16a64bdfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>previous_page</value>
+      <webElementGuid>5cca6946-6866-4c5d-91d3-4818e0d53c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>prev</value>
+      <webElementGuid>c1008b07-1f58-48cd-8457-b5681d700e5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products?page=1</value>
+      <webElementGuid>33decf2f-e113-41cf-8baa-0306a180f177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>← Previous</value>
+      <webElementGuid>38178aa4-210c-40dd-a1e1-b90b360f7ffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row my-5&quot;]/div[@class=&quot;col-12 col-lg-9 mt-5 mt-lg-0&quot;]/div[@class=&quot;row g-4&quot;]/div[@class=&quot;d-flex gap-4 align-items-center justify-content-center my-5&quot;]/a[@class=&quot;previous_page&quot;]</value>
+      <webElementGuid>12f6b989-69e8-4c91-a2db-c34097970519</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'← Previous')]</value>
+      <webElementGuid>c3d14ad4-6f6e-4f74-a68a-246b7c2e3d21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 5.000.000'])[6]/following::a[1]</value>
+      <webElementGuid>c106b067-5f58-489a-b5d8-43f69738dfb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laptop 20230816214444'])[1]/following::a[1]</value>
+      <webElementGuid>141fb826-1134-4924-ab29-760dc92d760d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next →'])[1]/preceding::a[1]</value>
+      <webElementGuid>d2b179d6-5793-4386-a218-fad66b9d5b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='← Previous']/parent::*</value>
+      <webElementGuid>db24f36b-154c-42a6-be85-fd71f8b03b8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/products?page=1')]</value>
+      <webElementGuid>46ac9eab-61fe-4608-928f-430a77134d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/a</value>
+      <webElementGuid>7543e237-7768-4181-8bb4-ec9365be9778</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products?page=1' and (text() = '← Previous' or . = '← Previous')]</value>
+      <webElementGuid>e602cd03-6a36-4e0d-bcd4-74d819867aaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

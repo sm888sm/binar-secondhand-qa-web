@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC502 Seller Preview New Product Negative Empty Product Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32721ff9-9e9b-484c-8d82-333381bc18b4</testCaseGuid>
+</TestCaseEntity>

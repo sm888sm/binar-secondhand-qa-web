@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Lengkapi Info Akun_form-avatar-input</name>
+   <tag></tag>
+   <elementGuidId>edb775b5-0f4d-4d50-baca-e368416f3665</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#form-avatar-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='form-avatar-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0ad2bfc1-546d-4208-bf4b-254e967314fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-avatar rounded-4 text-primary bg-alt-primary p-5</value>
+      <webElementGuid>186cc5c8-4159-4a90-8acc-62ec74ff60a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form-avatar-input</value>
+      <webElementGuid>3f75175d-d7c0-4d20-ba44-58248b492f51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-avatar-input&quot;)</value>
+      <webElementGuid>d716ce3e-99dc-4cd5-97c9-dfd708299c72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='form-avatar-input']</value>
+      <webElementGuid>a1af7c61-b41f-4515-94d0-173931aa7451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form-avatar-view']/div</value>
+      <webElementGuid>7c009c91-f498-49aa-84d1-33cf78f4477b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Info Akun'])[1]/following::div[5]</value>
+      <webElementGuid>a2ff106f-b615-401f-8c75-4029b11c9267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::div[1]</value>
+      <webElementGuid>3c2af879-4bce-4dfb-ac98-d88f3cdb7d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kota'])[1]/preceding::div[2]</value>
+      <webElementGuid>539b015d-e4c9-42c9-bd9b-65796bf25967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>287c309d-9ab0-4e6b-858a-9fa43b6ab5fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'form-avatar-input']</value>
+      <webElementGuid>fb8a1bd4-0fe4-4950-b0b8-2eb375f196fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

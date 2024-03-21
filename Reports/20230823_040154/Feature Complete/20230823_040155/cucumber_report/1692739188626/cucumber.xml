@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="77.823199">
+<testcase classname="Seller Approve Then Sell Product" name="The notification list on the navbar displays the product" time="56.356822">
+<system-out><![CDATA[the buyer negotiates for a product..........................................passed
+Given the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==.passed
+And clicks on the "Notifikasi" button.......................................passed
+When the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Approve Then Sell Product" name="The notification list page displays the product" time="4.804105">
+<system-out><![CDATA[When the seller clicks on the "Penawaran produk" notification...............passed
+Then the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Approve Then Sell Product" name="The seller accepts a product offer" time="5.851939">
+<system-out><![CDATA[When the seller clicks on the "Terima" button...............................passed
+Then the the negotiated product item displays "Penawaran produk diterima" text.passed
+And the the negotiated product item displays "Status" and "Hubungi di" button.passed
+]]></system-out>
+</testcase>
+<testcase classname="Seller Approve Then Sell Product" name="The seller marks a product as sold" time="10.810333">
+<system-out><![CDATA[When the seller clicks "Status" button......................................passed
+And the seller clicks "Berhasil terjual" button and clicks "Kirim"..........passed
+Then the the negotiated product item displays "Berhasil terjual" text.......passed
+]]></system-out>
+</testcase>
+</testsuite>

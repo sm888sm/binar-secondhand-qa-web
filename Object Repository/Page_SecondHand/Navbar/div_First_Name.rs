@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_First_Name</name>
+   <tag></tag>
+   <elementGuidId>c003329e-d063-4865-8b9b-a28a40254e08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.fs-5.fw-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>547edb4f-c754-4780-87a5-47041643ab49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs-5 fw-bold</value>
+      <webElementGuid>fc359273-342b-4cfe-803e-d8e53311bdb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>John</value>
+      <webElementGuid>ed30caa9-0c89-4b93-b491-331217f26c34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarSupportedContent&quot;)/div[@class=&quot;ms-auto&quot;]/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown fs-5 d-none d-lg-block&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;nav-user&quot;]/div[@class=&quot;d-flex align-items-center justify-content center flex-column py-2&quot;]/div[@class=&quot;card-body text-center&quot;]/div[@class=&quot;fs-5 fw-bold&quot;]</value>
+      <webElementGuid>82d38abe-ca36-4c92-9ef3-36e17137e08f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarSupportedContent']/div/ul/li[6]/ul/li/a/div/div/div</value>
+      <webElementGuid>cd452716-35be-4e9f-9e99-fa6545fe0f79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Saya'])[2]/following::div[3]</value>
+      <webElementGuid>8c0f75cb-632c-4c31-a5e3-51bb4116eb8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/following::div[3]</value>
+      <webElementGuid>271fccae-f8ce-432e-8dcc-dd9370a2243d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta'])[1]/preceding::div[1]</value>
+      <webElementGuid>763bfa7e-ba03-4f59-ab95-5b70d7add477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='John']/parent::*</value>
+      <webElementGuid>e71e7389-3315-4fd2-ae11-c45a9ff5713f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/div</value>
+      <webElementGuid>e8d94e2e-49e5-4229-b308-7f119148cefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'John' or . = 'John')]</value>
+      <webElementGuid>16da5571-a2c5-4e6e-8752-a89532089d73</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

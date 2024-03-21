@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="84.791344">
+<testcase classname="User Login and Logout Scenarios" name="User Login Negative - Invalid E-mail" time="16.142777">
+<system-out><![CDATA[Given the user clicks on "Masuk"............................................passed
+When the user enters an invalid email address johnsmithbinar.com and a valid password QJblfja5Cso=.passed
+And the user clicks on "Login"..............................................passed
+Then the user is still on the login page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login and Logout Scenarios" name="User Login Negative - Invalid Password" time="19.956365">
+<system-out><![CDATA[When the user enters a valid email address QAE10_GR03_seller@binar.com and an invalid password P11S1FO2cCA=.passed
+And the user clicks on "Login"..............................................passed
+Then the user sees an "Invalid Email or password" message...................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login and Logout Scenarios" name="User Login Negative - Empty Password" time="18.79744">
+<system-out><![CDATA[When the user enters a valid email address QAE10_GR03_buyer@binar.com and an empty password.passed
+And the user clicks on "Login"..............................................passed
+Then the user is still on the login page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login and Logout Scenarios" name="User Login Positive" time="19.550204">
+<system-out><![CDATA[When the user enters a valid email address QAE10_GR03_buyer@binar.com a valid password QJblfja5Cso=.passed
+And the user clicks on "Login"..............................................passed
+Then the user is redirected to the homepage.................................passed
+And the user clicks on "Profil Saya"........................................passed
+And the user's name John is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login and Logout Scenarios" name="User Logout Positive" time="10.344558">
+<system-out><![CDATA[Given the user navigates to the home page...................................passed
+When the user clicks on "Profil Saya".......................................passed
+And the user clicks on "Keluar".............................................passed
+Then the user is logged out and sees the "Masuk" link.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

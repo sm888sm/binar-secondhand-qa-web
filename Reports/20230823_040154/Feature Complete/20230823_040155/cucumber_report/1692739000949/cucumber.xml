@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.106718">
+<testcase classname="Use Search Product" name="User searches and views a product" time="5.352051">
+<system-out><![CDATA[When the user enters the product name in the search field...................passed
+And presses the Enter key...................................................passed
+Then the search results should display the product name, category Hobi and price Rp 8.000.000.passed
+]]></system-out>
+</testcase>
+<testcase classname="Use Search Product" name="User clicks the product to open the product page" time="6.754667">
+<failure message="com.kms.katalon.core.exception.StepFailedException: productID is not matched&#13;&#10;&#9;at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#13;&#10;&#9;at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)&#13;&#10;&#9;at SellerSearchProduct.redirectToProductPage(SellerSearchProduct.groovy:110)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)&#13;&#10;&#9;at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:70)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:52)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:47)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:44)&#13;&#10;&#9;at cucumber.runtime.Runtime.runFeature(Runtime.java:120)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:106)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:35)&#13;&#10;&#9;at cucumber.api.cli.Main$run.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)&#13;&#10;&#9;at 07 User Search Product.run(07 User Search Product:20)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#13;&#10;&#9;at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#13;&#10;&#9;at TempTestSuite1692738115695.run(TempTestSuite1692738115695.groovy:36)&#13;&#10;"><![CDATA[When the user clicks on the desired product from the search results.........passed
+Then the user is redirected to the product details page.....................failed
+And the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta.passed
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: productID is not matched
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at SellerSearchProduct.redirectToProductPage(SellerSearchProduct.groovy:110)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 07 User Search Product.run(07 User Search Product:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692738115695.run(TempTestSuite1692738115695.groovy:36)
+]]></failure>
+</testcase>
+</testsuite>

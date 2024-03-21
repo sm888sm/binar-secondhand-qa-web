@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="131.803973">
+<testcase classname="User Edit Profile Scenarios" name="User Edit Profile Negative - Empty City" time="48.039738">
+<system-out><![CDATA[Given the user logs in with previously created account......................passed
+And the user navigates to "Edit Profile" page...............................passed
+When the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty.passed
+And the user clicks on "Save Changes".......................................passed
+Then the user remains on the profile edit page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Edit Profile Scenarios" name="User Edit Profile Negative - Empty Name" time="31.113768">
+<system-out><![CDATA[When the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty.passed
+And the user clicks on "Save Changes".......................................passed
+Then the user remains on the profile edit page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Edit Profile Scenarios" name="User Edit Profile Negative - Empty Address" time="16.770913">
+<system-out><![CDATA[When the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty.passed
+And the user clicks on "Save Changes".......................................passed
+Then the user remains on the profile edit page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Edit Profile Scenarios" name="User Edit Profile Negative - Empty Phone Number" time="16.807973">
+<system-out><![CDATA[When the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty.passed
+And the user clicks on "Save Changes".......................................passed
+Then the user remains on the profile edit page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Edit Profile Scenarios" name="User Edit Profile Positive" time="19.071581">
+<system-out><![CDATA[When the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999.passed
+And the user clicks on "Save Changes".......................................passed
+Then the user is redirected to the homepage.................................passed
+And the user clicks on "Profil Saya"........................................passed
+And the user's name John and city Jakarta are displayed.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

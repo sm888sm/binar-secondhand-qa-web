@@ -1,0 +1,380 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "3ed032fb-2069-42a2-a82b-93dc341e5dcb",
+        "line": 33,
+        "name": "User Sign Up Negative - Invalid Name",
+        "description": "",
+        "id": "user-sign-up;user-sign-up-negative---invalid-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1442724800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks on \"Masuk\"",
+            "match": {
+              "location": "Shared.clickOnMasuk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d9e0e00a-eb5d-4755-bffa-28cdde3201fd"
+          },
+          {
+            "result": {
+              "duration": 1638267200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks on \"Daftar di sini\"",
+            "match": {
+              "location": "UserSignUp.clickOnDaftar()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f878c745-e3ef-428c-bb9b-d7a791879d96"
+          },
+          {
+            "result": {
+              "duration": 9867800800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters their full name empty, email address and password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 66
+                }
+              ],
+              "location": "UserSignUp.enterInvalidFullName(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a0d2b9c6-cb12-4521-a6c9-2ab5b0d8613c"
+          },
+          {
+            "result": {
+              "duration": 4366101400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks on \"Daftar\"",
+            "match": {
+              "location": "UserSignUp.clicksOnDaftarButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e0a089c2-b022-482e-99d4-f9d1420a8424"
+          },
+          {
+            "result": {
+              "duration": 5036058900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user is still on the sign-up page",
+            "match": {
+              "location": "UserSignUp.verifyStillOnSignUpPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3a556b83-23f8-4537-80c4-84cbf5c4a055"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "620e1c3b-9e27-46d5-9b1c-1f9e2aa6bf92",
+        "line": 45,
+        "name": "User Sign Up Negative - Invalid E-mail",
+        "description": "",
+        "id": "user-sign-up;user-sign-up-negative---invalid-e-mail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9229055600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user enters their full name John Smith, invalid email address and password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 32
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 79
+                }
+              ],
+              "location": "UserSignUp.enterInvalidEmailAddress(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "53e2d7b5-ad2d-4f6e-9c3d-98e563df09fa"
+          },
+          {
+            "result": {
+              "duration": 5196976300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user clicks on \"Daftar\"",
+            "match": {
+              "location": "UserSignUp.clicksOnDaftarButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ce13db91-86dd-46ce-9f51-823622c03a19"
+          },
+          {
+            "result": {
+              "duration": 5022212100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is still on the sign-up page",
+            "match": {
+              "location": "UserSignUp.verifyStillOnSignUpPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "178d1d1c-cedc-4729-88b7-bec832d73cfd"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "da8e0497-b99d-4bdf-96e7-168c65b92931",
+        "line": 57,
+        "name": "User Sign Up Negative - Invalid Password",
+        "description": "",
+        "id": "user-sign-up;user-sign-up-negative---invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15825728300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user enters their full name John Smith, email address and empty password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 32
+                }
+              ],
+              "location": "UserSignUp.enterInvalidPassword(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ca701722-dc3f-4409-9fee-bf0ac2f770d2"
+          },
+          {
+            "result": {
+              "duration": 6001109700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user clicks on \"Daftar\"",
+            "match": {
+              "location": "UserSignUp.clicksOnDaftarButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "94aa6884-27d9-4563-86be-b4483ebd32ce"
+          },
+          {
+            "result": {
+              "duration": 5038173800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user is still on the sign-up page",
+            "match": {
+              "location": "UserSignUp.verifyStillOnSignUpPage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4434a3f6-f5ed-4e9a-9985-99ef14005eed"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "451034b1-320e-4bcb-a103-5936cd26a297",
+        "line": 70,
+        "name": "User Sign Up Negative - Already Registered E-mail",
+        "description": "",
+        "id": "user-sign-up;user-sign-up-negative---already-registered-e-mail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14848729700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user enters their full name John Smith, already registered email address QAE10_GR03_buyer@binar.com and password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 32
+                },
+                {
+                  "val": "QAE10_GR03_buyer@binar.com",
+                  "offset": 77
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 117
+                }
+              ],
+              "location": "UserSignUp.enterAlreadyRegisteredEmail(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "5c70f6cb-871b-4c9d-b9ce-ffa4770257bc"
+          },
+          {
+            "result": {
+              "duration": 4383023100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the user clicks on \"Daftar\"",
+            "match": {
+              "location": "UserSignUp.clicksOnDaftarButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "acd97ee5-5474-471c-a26d-e14e0a5e0763"
+          },
+          {
+            "result": {
+              "duration": 311894800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "the error message \"Email has already been taken\" is displayed",
+            "match": {
+              "location": "UserSignUp.verifyErrorMessageEmail()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3b2b37c8-72a0-4706-bc16-16ff603afbf7"
+          },
+          {
+            "result": {
+              "duration": 5027337700,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the user is still on the sign-up page",
+            "match": {
+              "location": "UserSignUp.verifyStillOnSignUpPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b6176f74-fcc0-41f7-b052-0484b8a68ad5"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "1a6cca68-f888-4ad0-8fb2-7bf45f9447f5",
+        "line": 85,
+        "name": "User Sign Up Positive",
+        "description": "",
+        "id": "user-sign-up;user-sign-up-positive;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7892863800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the user enters their full name John Smith, unique email address and password QJblfja5Cso\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John Smith",
+                  "offset": 32
+                },
+                {
+                  "val": "QJblfja5Cso\u003d",
+                  "offset": 78
+                }
+              ],
+              "location": "UserSignUp.enterValidData(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9f682163-024a-4b36-9e56-9eb8ec014a80"
+          },
+          {
+            "result": {
+              "duration": 5466352100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "the user clicks on \"Daftar\"",
+            "match": {
+              "location": "UserSignUp.clicksOnDaftarButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5c0d185f-b97a-498f-b571-aaf05e50c792"
+          },
+          {
+            "result": {
+              "duration": 5020682800,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the user is redirected to the homepage",
+            "match": {
+              "location": "Shared.redirectToHomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cb5c4a7f-2146-46e7-998e-06a6e567fa84"
+          },
+          {
+            "result": {
+              "duration": 1406407600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the user clicks on \"Profil Saya\"",
+            "match": {
+              "location": "Shared.clickOnProfilSaya()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6c5381c8-840b-448c-b8f2-9885071c5590"
+          },
+          {
+            "result": {
+              "duration": 442802600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "the user\u0027s name John is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 16
+                }
+              ],
+              "location": "Shared.verifyProfileFirstName(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "bd9f248a-1ec5-4d4b-bafd-67ee50fb3301"
+          }
+        ]
+      }
+    ],
+    "name": "User Sign Up",
+    "description": "",
+    "id": "user-sign-up",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/01 User Sign Up.feature",
+    "tags": []
+  }
+]

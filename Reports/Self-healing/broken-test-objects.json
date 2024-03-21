@@ -1,0 +1,264 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC016_View_Product_Offer/Page_SecondHand/div_Laptop 202306082152Rp 2.000.000Ditawar _708f10",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Penawaran produk\u0027])[6]/following::div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Berhasil di terbitkan\u0027])[6]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC001_SignUp_Positive/Page_SecondHand/div_Masuk                              Emai_4d76ca",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SecondHand.\u0027])[1]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/i_Masuk_bi bi-arrow-bar-right",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/i_Masuk_bi bi-arrow-bar-right_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/div_Lengkapi Info Akun_form-avatar-input",
+      "brokenLocator": "//div[@id\u003d\u0027form-avatar-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027form-avatar-view\u0027]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/div_Lengkapi Info Akun_form-avatar-input_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/a_Daftar di sini",
+      "brokenLocator": "//a[contains(text(),\u0027Daftar di sini\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/a_Daftar di sini_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/input_Nama_username",
+      "brokenLocator": "//input[@id\u003d\u0027user_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/p_Elektronik",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Laptop\u0027])[1]/following::p[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Deskripsi\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/p_Elektronik_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/p_Rp 5.000.000",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Laptop\u0027])[1]/following::p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Deskripsi\u0027])[1]/following::p[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/p_Rp 5.000.000_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/div_Jakarta",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Seller QA Group 03 Wave 10\u0027])[1]/following::div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[(text() \u003d \u0027Jakarta\u0027 or . \u003d \u0027Jakarta\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/div_Jakarta_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/input_Email_useremail",
+      "brokenLocator": "//input[@id\u003d\u0027user_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/div_Lengkapi Info Akun_form-avatar-input",
+      "brokenLocator": "//div[@id\u003d\u0027form-avatar-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/div_Lengkapi Info Akun_form-avatar-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/button_Deskripsi_btn-close btn-close-white _f67776",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type \u003d \u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/button_Deskripsi_btn-close btn-close-white _f67776_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/h5_Laptop 20230816195617",
+      "brokenLocator": "//div[@id\u003d\u0027products\u0027]/div/a/div/div/h5",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jual\u0027])[1]/preceding::h5[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/h5_Laptop 20230816195617_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/input_Password_commit (1)",
+      "brokenLocator": "//input[@name\u003d\u0027q\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/h5_Laptop 20230817200",
+      "brokenLocator": "//div[@id\u003d\u0027products\u0027]/div/a/div/div/h5",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jual\u0027])[1]/preceding::h5[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/h5_Laptop 20230817200_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/button_Saya tertarik dan ingin nego",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Laptop 20230817200214 Edited\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Deskripsi\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/button_Saya tertarik dan ingin nego_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/a_Produk Saya",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@href \u003d \u0027/products\u0027 and (text() \u003d \u0027\n      \n      Produk Saya\n\u0027 or . \u003d \u0027\n      \n      Produk Saya\n\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/a_Produk Saya_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/a_Jual",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next →\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.btn.btn-primary.btn-lg.rounded-4.d-inline-flex.align-items-center.justify-content-space-between.px-5",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/a_Jual_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/i_Keluar_bi bi-person me-4 me-lg-0",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/ul/li/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/i_Keluar_bi bi-person me-4 me-lg-0_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/button_Status",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ditawar Rp 7.000.000\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Hubungi di\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/button_Status_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/div_Laptop 20230818010506 Edited           _9563b8",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Penawaran produk\u0027])[1]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Daftar Produkmu yang Ditawar\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/div_Laptop 20230818010506 Edited           _9563b8_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/h5_Laptop 20230818020344",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tambah Produk\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Terjual\u0027])[1]/following::h5[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/h5_Laptop 20230818020344_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/h5_Laptop 20230818020344",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tambah Produk\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Rp 5.000.000\u0027])[1]/preceding::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/h5_Laptop 20230818020344_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/h5_Rp 5.000.000",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Laptop 20230818020344\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Rp 5.000.000\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/div_Email has already been taken",
+      "brokenLocator": "//form[@id\u003d\u0027new_user\u0027]/div[2]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/div_Email has already been taken_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SecondHand/a_Masuk",
+      "brokenLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/users/sign_in\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SecondHand/a_Masuk_href.png"
+    }
+  ]
+}

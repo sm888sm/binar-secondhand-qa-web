@@ -1,0 +1,243 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "ae8c3877-45c4-40d5-9eaf-127b0346107b",
+        "line": 29,
+        "name": "The notification list on the navbar displays the product",
+        "description": "",
+        "id": "seller-approve-then-sell-product;the-notification-list-on-the-navbar-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38428724500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the buyer negotiates for a product",
+            "match": {
+              "location": "Shared.buyerNegotiateProduct()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "93cc52e5-b9e3-4d9f-abf1-ce244fe04c87"
+          },
+          {
+            "result": {
+              "duration": 13092307600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "48dddd42-a24a-4104-92cc-69d92045746b"
+          },
+          {
+            "result": {
+              "duration": 4513363800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on the \"Notifikasi\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickNotificationButton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3ae57f1a-ea0d-463f-aef6-700afa795560"
+          },
+          {
+            "result": {
+              "duration": 315197700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 64
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 94
+                }
+              ],
+              "location": "SellerRejectOffer.verifyNotificationDisplaysProduct(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0e3f9319-4b40-407f-b5e2-951201e59bd5"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "89c29480-6942-408b-848b-586627fcab08",
+        "line": 37,
+        "name": "The notification list page displays the product",
+        "description": "",
+        "id": "seller-approve-then-sell-product;the-notification-list-page-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4376372500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the seller clicks on the \"Penawaran produk\" notification",
+            "match": {
+              "location": "SellerRejectOffer.clickProductOnNotificationNavbar()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "29e626df-c50f-4427-a1d9-b80911c6ea8a"
+          },
+          {
+            "result": {
+              "duration": 425902400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 55
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 85
+                }
+              ],
+              "location": "SellerRejectOffer.clickProductOnNotificationPage(String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8643f614-969a-4863-ac4c-2b64519f7ae6"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5e7fdf01-7e2b-4899-b323-76b4f89964a3",
+        "line": 39,
+        "name": "The seller accepts a product offer",
+        "description": "",
+        "id": "seller-approve-then-sell-product;the-seller-accepts-a-product-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4739749400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the seller clicks on the \"Terima\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.clickAcceptButton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4e9739b1-73d9-4745-9c4f-59e91e3b3fb2"
+          },
+          {
+            "result": {
+              "duration": 383899300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the the negotiated product item displays \"Penawaran produk diterima\" text",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.verifyAcceptedProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "446569b9-52f5-44a6-b1a5-1c87ac6f4dcf"
+          },
+          {
+            "result": {
+              "duration": 724246000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the the negotiated product item displays \"Status\" and \"Hubungi di\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.verifyAcceptedProductButtons()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ac5e74df-52f9-4e08-9748-b4f1676b111b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "df249337-d089-45e8-9d9e-f8f7c6341e01",
+        "line": 44,
+        "name": "The seller marks a product as sold",
+        "description": "",
+        "id": "seller-approve-then-sell-product;the-seller-marks-a-product-as-sold",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4478004800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the seller clicks \"Status\" button",
+            "match": {
+              "location": "SellerApproveThenCancelOffer.clickStatusButton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e2f1f424-7d01-4615-84fb-8ce35cd17112"
+          },
+          {
+            "result": {
+              "duration": 5939666800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the seller clicks \"Berhasil terjual\" button and clicks \"Kirim\"",
+            "match": {
+              "location": "SellerApproveAndSellProduct.clickSoldButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "208ea9a2-c066-45ef-8050-c4ccc2b7e0c6"
+          },
+          {
+            "result": {
+              "duration": 387775500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the the negotiated product item displays \"Berhasil terjual\" text",
+            "match": {
+              "location": "SellerApproveAndSellProduct.verifySoldProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "40f27484-c5e9-439b-95d4-7f564304179b"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Approve Then Sell Product",
+    "description": "",
+    "id": "seller-approve-then-sell-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/11 Seller Approve Offer Then Sell Product.feature",
+    "tags": []
+  }
+]

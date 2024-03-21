@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC101 Seller Delete Product Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fcad003-09a5-4b84-b51b-6c55ec8d7e02</testCaseGuid>
+</TestCaseEntity>

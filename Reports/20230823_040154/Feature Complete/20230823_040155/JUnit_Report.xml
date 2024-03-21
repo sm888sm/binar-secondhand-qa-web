@@ -1,0 +1,2503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Complete" time="1184.348" tests="12" failures="0" errors="0">
+   <testsuite name="Feature Complete" tests="12" failures="0" errors="0" time="1184.348" skipped="0" timestamp="2023-08-23 04:01:57" hostname="netiz - Lenovo-SM" id="Test Suites/Feature Complete">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\netiz\\git\\kel03_web\\Reports\\20230823_040154\\Feature Complete\\20230823_040155"/>
+         <property name="logFiles" value="C:\\Users\\netiz\\git\\kel03_web\\Reports\\20230823_040154\\Feature Complete\\20230823_040155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="netiz - Lenovo-SM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.103"/>
+         <property name="sessionId" value="8b73c15d191d851e3db4dea1ad4cac6f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/01 Web/02 Feature Files/01 User Sign Up" time="119.746" classname="Test Cases/01 Web/02 Feature Files/01 User Sign Up" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:01:57 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/01 User Sign Up: Test Cases/01 Web/02 Feature Files/01 User Sign Up
+
+2023-08-23 04:01:57 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:01:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:01:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:01:57 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:01:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:01:59 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:02:01 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:02:01 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:02:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/01 User Sign Up.feature"): Feature file: 'Include/features/01 User Sign Up.feature' was passed
+
+2023-08-23 04:02:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/01 User Sign Up.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738121653'...
+
+2023-08-23 04:02:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Sign Up Negative - Invalid Name: SCENARIO User Sign Up Negative - Invalid Name
+
+2023-08-23 04:02:02 - [TEST_STEP][PASSED] - the user clicks on "Masuk": the user clicks on "Masuk"
+
+2023-08-23 04:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:02:04 - [MESSAGE][PASSED] - the user clicks on "Masuk"
+
+2023-08-23 04:02:04 - [TEST_STEP][PASSED] - the user clicks on "Daftar di sini": the user clicks on "Daftar di sini"
+
+2023-08-23 04:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Daftar di sini' is clicked on
+
+2023-08-23 04:02:05 - [MESSAGE][PASSED] - the user clicks on "Daftar di sini"
+
+2023-08-23 04:02:05 - [TEST_STEP][PASSED] - the user enters their full name empty, email address and password QJblfja5Cso=: the user enters their full name empty, email address and password QJblfja5Cso=
+
+2023-08-23 04:02:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:02:12 - [MESSAGE][PASSED] - Text 'qae10_gr03_buyer_1692738125942_59827979@example.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:02:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:02:15 - [MESSAGE][PASSED] - the user enters their full name empty, email address and password QJblfja5Cso=
+
+2023-08-23 04:02:15 - [TEST_STEP][PASSED] - the user clicks on "Daftar": the user clicks on "Daftar"
+
+2023-08-23 04:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:02:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:02:20 - [MESSAGE][PASSED] - the user clicks on "Daftar"
+
+2023-08-23 04:02:20 - [TEST_STEP][PASSED] - the user is still on the sign-up page: the user is still on the sign-up page
+
+2023-08-23 04:02:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:02:25 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_up'
+
+2023-08-23 04:02:25 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_up' and expected text 'https://secondhand.binaracademy.org/users/sign_up' are matched 
+
+2023-08-23 04:02:25 - [MESSAGE][PASSED] - the user is still on the sign-up page
+
+2023-08-23 04:02:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Sign Up Negative - Invalid E-mail: SCENARIO User Sign Up Negative - Invalid E-mail
+
+2023-08-23 04:02:25 - [TEST_STEP][PASSED] - the user enters their full name John Smith, invalid email address and password QJblfja5Cso=: the user enters their full name John Smith, invalid email address and password QJblfja5Cso=
+
+2023-08-23 04:02:28 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:02:31 - [MESSAGE][PASSED] - Text 'johnsmithbinar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:02:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:02:34 - [MESSAGE][PASSED] - the user enters their full name John Smith, invalid email address and password QJblfja5Cso=
+
+2023-08-23 04:02:34 - [TEST_STEP][PASSED] - the user clicks on "Daftar": the user clicks on "Daftar"
+
+2023-08-23 04:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:02:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:02:39 - [MESSAGE][PASSED] - the user clicks on "Daftar"
+
+2023-08-23 04:02:39 - [TEST_STEP][PASSED] - the user is still on the sign-up page: the user is still on the sign-up page
+
+2023-08-23 04:02:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:02:44 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_up'
+
+2023-08-23 04:02:44 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_up' and expected text 'https://secondhand.binaracademy.org/users/sign_up' are matched 
+
+2023-08-23 04:02:44 - [MESSAGE][PASSED] - the user is still on the sign-up page
+
+2023-08-23 04:02:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Sign Up Negative - Invalid Password: SCENARIO User Sign Up Negative - Invalid Password
+
+2023-08-23 04:02:44 - [TEST_STEP][PASSED] - the user enters their full name John Smith, email address and empty password: the user enters their full name John Smith, email address and empty password
+
+2023-08-23 04:02:50 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:02:56 - [MESSAGE][PASSED] - Text 'qae10_gr03_buyer_1692738164675_1884909671@example.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:03:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:03:00 - [MESSAGE][PASSED] - the user enters their full name John Smith, email address and empty password
+
+2023-08-23 04:03:00 - [TEST_STEP][PASSED] - the user clicks on "Daftar": the user clicks on "Daftar"
+
+2023-08-23 04:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:03:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:03:06 - [MESSAGE][PASSED] - the user clicks on "Daftar"
+
+2023-08-23 04:03:06 - [TEST_STEP][PASSED] - the user is still on the sign-up page: the user is still on the sign-up page
+
+2023-08-23 04:03:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:03:11 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_up'
+
+2023-08-23 04:03:11 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_up' and expected text 'https://secondhand.binaracademy.org/users/sign_up' are matched 
+
+2023-08-23 04:03:11 - [MESSAGE][PASSED] - the user is still on the sign-up page
+
+2023-08-23 04:03:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Sign Up Negative - Already Registered E-mail: SCENARIO User Sign Up Negative - Already Registered E-mail
+
+2023-08-23 04:03:11 - [TEST_STEP][PASSED] - the user enters their full name John Smith, already registered email address QAE10_GR03_buyer@binar.com and password QJblfja5Cso=: the user enters their full name John Smith, already registered email address QAE10_GR03_buyer@binar.com and password QJblfja5Cso=
+
+2023-08-23 04:03:17 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:03:23 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:03:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:03:26 - [MESSAGE][PASSED] - the user enters their full name John Smith, already registered email address QAE10_GR03_buyer@binar.com and password QJblfja5Cso=
+
+2023-08-23 04:03:26 - [TEST_STEP][PASSED] - the user clicks on "Daftar": the user clicks on "Daftar"
+
+2023-08-23 04:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:03:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:03:30 - [MESSAGE][PASSED] - the user clicks on "Daftar"
+
+2023-08-23 04:03:30 - [TEST_STEP][PASSED] - the error message "Email has already been taken" is displayed: the error message "Email has already been taken" is displayed
+
+2023-08-23 04:03:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Email has already been taken' are matched.
+
+2023-08-23 04:03:31 - [MESSAGE][PASSED] - the error message "Email has already been taken" is displayed
+
+2023-08-23 04:03:31 - [TEST_STEP][PASSED] - the user is still on the sign-up page: the user is still on the sign-up page
+
+2023-08-23 04:03:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:03:36 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_up'
+
+2023-08-23 04:03:36 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_up' and expected text 'https://secondhand.binaracademy.org/users/sign_up' are matched 
+
+2023-08-23 04:03:36 - [MESSAGE][PASSED] - the user is still on the sign-up page
+
+2023-08-23 04:03:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Sign Up Positive: SCENARIO User Sign Up Positive
+
+2023-08-23 04:03:36 - [TEST_STEP][PASSED] - the user enters their full name John Smith, unique email address and password QJblfja5Cso=: the user enters their full name John Smith, unique email address and password QJblfja5Cso=
+
+2023-08-23 04:03:38 - [MESSAGE][PASSED] - Text 'John Smith' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:03:41 - [MESSAGE][PASSED] - Text 'qae10_gr03_buyer_1692738216125_870036964@example.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:03:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:03:44 - [MESSAGE][PASSED] - the user enters their full name John Smith, unique email address and password QJblfja5Cso=
+
+2023-08-23 04:03:44 - [TEST_STEP][PASSED] - the user clicks on "Daftar": the user clicks on "Daftar"
+
+2023-08-23 04:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:03:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:03:49 - [MESSAGE][PASSED] - the user clicks on "Daftar"
+
+2023-08-23 04:03:49 - [TEST_STEP][PASSED] - the user is redirected to the homepage: the user is redirected to the homepage
+
+2023-08-23 04:03:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:03:54 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:03:54 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:03:54 - [MESSAGE][PASSED] - the user is redirected to the homepage
+
+2023-08-23 04:03:54 - [TEST_STEP][PASSED] - the user clicks on "Profil Saya": the user clicks on "Profil Saya"
+
+2023-08-23 04:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:03:55 - [MESSAGE][PASSED] - the user clicks on "Profil Saya"
+
+2023-08-23 04:03:55 - [TEST_STEP][PASSED] - the user's name John is displayed: the user's name John is displayed
+
+2023-08-23 04:03:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_First_Name' are matched.
+
+2023-08-23 04:03:56 - [MESSAGE][PASSED] - the user's name John is displayed
+
+2023-08-23 04:03:56 - [MESSAGE][PASSED] - Feature file: 'Include/features/01 User Sign Up.feature' was passed
+
+2023-08-23 04:03:56 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:03:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:03:57 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:03:57 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/02 User Login Logout" time="90.014" classname="Test Cases/01 Web/02 Feature Files/02 User Login Logout" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:03:57 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/02 User Login Logout: Test Cases/01 Web/02 Feature Files/02 User Login Logout
+
+2023-08-23 04:03:57 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:03:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:03:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:03:57 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:03:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:03:58 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:04:00 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:04:00 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:04:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/02 User Login Logout.feature"): Feature file: 'Include/features/02 User Login Logout.feature' was passed
+
+2023-08-23 04:04:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/02 User Login Logout.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738240828'...
+
+2023-08-23 04:04:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Login Negative - Invalid E-mail: SCENARIO User Login Negative - Invalid E-mail
+
+2023-08-23 04:04:01 - [TEST_STEP][PASSED] - the user clicks on "Masuk": the user clicks on "Masuk"
+
+2023-08-23 04:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:04:03 - [MESSAGE][PASSED] - the user clicks on "Masuk"
+
+2023-08-23 04:04:03 - [TEST_STEP][PASSED] - the user enters an invalid email address johnsmithbinar.com and a valid password QJblfja5Cso=: the user enters an invalid email address johnsmithbinar.com and a valid password QJblfja5Cso=
+
+2023-08-23 04:04:05 - [MESSAGE][PASSED] - Text 'johnsmithbinar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:04:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:04:08 - [MESSAGE][PASSED] - the user enters an invalid email address johnsmithbinar.com and a valid password QJblfja5Cso=
+
+2023-08-23 04:04:08 - [TEST_STEP][PASSED] - the user clicks on "Login": the user clicks on "Login"
+
+2023-08-23 04:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:04:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:04:12 - [MESSAGE][PASSED] - the user clicks on "Login"
+
+2023-08-23 04:04:12 - [TEST_STEP][PASSED] - the user is still on the login page: the user is still on the login page
+
+2023-08-23 04:04:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:04:17 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_in'
+
+2023-08-23 04:04:17 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_in' and expected text 'https://secondhand.binaracademy.org/users/sign_in' are matched 
+
+2023-08-23 04:04:17 - [MESSAGE][PASSED] - the user is still on the login page
+
+2023-08-23 04:04:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Login Negative - Invalid Password: SCENARIO User Login Negative - Invalid Password
+
+2023-08-23 04:04:17 - [TEST_STEP][PASSED] - the user enters a valid email address QAE10_GR03_seller@binar.com and an invalid password P11S1FO2cCA=: the user enters a valid email address QAE10_GR03_seller@binar.com and an invalid password P11S1FO2cCA=
+
+2023-08-23 04:04:23 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:04:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:04:27 - [MESSAGE][PASSED] - the user enters a valid email address QAE10_GR03_seller@binar.com and an invalid password P11S1FO2cCA=
+
+2023-08-23 04:04:27 - [TEST_STEP][PASSED] - the user clicks on "Login": the user clicks on "Login"
+
+2023-08-23 04:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:04:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:04:33 - [MESSAGE][PASSED] - the user clicks on "Login"
+
+2023-08-23 04:04:33 - [TEST_STEP][PASSED] - the user sees an "Invalid Email or password" message: the user sees an "Invalid Email or password" message
+
+2023-08-23 04:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Invalid Email or password' is present
+
+2023-08-23 04:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Invalid Email or password' is visible
+
+2023-08-23 04:04:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Invalid Email or password' is present
+
+2023-08-23 04:04:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Invalid Email or password' are matched.
+
+2023-08-23 04:04:37 - [MESSAGE][PASSED] - the user sees an "Invalid Email or password" message
+
+2023-08-23 04:04:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Login Negative - Empty Password: SCENARIO User Login Negative - Empty Password
+
+2023-08-23 04:04:37 - [TEST_STEP][PASSED] - the user enters a valid email address QAE10_GR03_buyer@binar.com and an empty password: the user enters a valid email address QAE10_GR03_buyer@binar.com and an empty password
+
+2023-08-23 04:04:41 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:04:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:04:45 - [MESSAGE][PASSED] - the user enters a valid email address QAE10_GR03_buyer@binar.com and an empty password
+
+2023-08-23 04:04:45 - [TEST_STEP][PASSED] - the user clicks on "Login": the user clicks on "Login"
+
+2023-08-23 04:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:04:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:04:51 - [MESSAGE][PASSED] - the user clicks on "Login"
+
+2023-08-23 04:04:51 - [TEST_STEP][PASSED] - the user is still on the login page: the user is still on the login page
+
+2023-08-23 04:04:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:04:56 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/users/sign_in'
+
+2023-08-23 04:04:56 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/users/sign_in' and expected text 'https://secondhand.binaracademy.org/users/sign_in' are matched 
+
+2023-08-23 04:04:56 - [MESSAGE][PASSED] - the user is still on the login page
+
+2023-08-23 04:04:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Login Positive: SCENARIO User Login Positive
+
+2023-08-23 04:04:56 - [TEST_STEP][PASSED] - the user enters a valid email address QAE10_GR03_buyer@binar.com a valid password QJblfja5Cso=: the user enters a valid email address QAE10_GR03_buyer@binar.com a valid password QJblfja5Cso=
+
+2023-08-23 04:05:00 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:05:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:05:02 - [MESSAGE][PASSED] - the user enters a valid email address QAE10_GR03_buyer@binar.com a valid password QJblfja5Cso=
+
+2023-08-23 04:05:02 - [TEST_STEP][PASSED] - the user clicks on "Login": the user clicks on "Login"
+
+2023-08-23 04:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:05:07 - [MESSAGE][PASSED] - the user clicks on "Login"
+
+2023-08-23 04:05:07 - [TEST_STEP][PASSED] - the user is redirected to the homepage: the user is redirected to the homepage
+
+2023-08-23 04:05:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:05:12 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:05:12 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:05:12 - [MESSAGE][PASSED] - the user is redirected to the homepage
+
+2023-08-23 04:05:12 - [TEST_STEP][PASSED] - the user clicks on "Profil Saya": the user clicks on "Profil Saya"
+
+2023-08-23 04:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:05:15 - [MESSAGE][PASSED] - the user clicks on "Profil Saya"
+
+2023-08-23 04:05:15 - [TEST_STEP][PASSED] - the user's name John is displayed: the user's name John is displayed
+
+2023-08-23 04:05:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_First_Name' are matched.
+
+2023-08-23 04:05:16 - [MESSAGE][PASSED] - the user's name John is displayed
+
+2023-08-23 04:05:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Logout Positive: SCENARIO User Logout Positive
+
+2023-08-23 04:05:16 - [TEST_STEP][PASSED] - the user navigates to the home page: the user navigates to the home page
+
+2023-08-23 04:05:17 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:05:17 - [MESSAGE][PASSED] - the user navigates to the home page
+
+2023-08-23 04:05:17 - [TEST_STEP][PASSED] - the user clicks on "Profil Saya": the user clicks on "Profil Saya"
+
+2023-08-23 04:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:05:18 - [MESSAGE][PASSED] - the user clicks on "Profil Saya"
+
+2023-08-23 04:05:18 - [TEST_STEP][PASSED] - the user clicks on "Keluar": the user clicks on "Keluar"
+
+2023-08-23 04:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/button_Keluar' is clicked on
+
+2023-08-23 04:05:20 - [MESSAGE][PASSED] - the user clicks on "Keluar"
+
+2023-08-23 04:05:20 - [TEST_STEP][PASSED] - the user is logged out and sees the "Masuk" link: the user is logged out and sees the "Masuk" link
+
+2023-08-23 04:05:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:05:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/a_Masuk' is present
+
+2023-08-23 04:05:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/a_Masuk' are matched.
+
+2023-08-23 04:05:26 - [MESSAGE][PASSED] - the user is logged out and sees the "Masuk" link
+
+2023-08-23 04:05:26 - [MESSAGE][PASSED] - Feature file: 'Include/features/02 User Login Logout.feature' was passed
+
+2023-08-23 04:05:26 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:05:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:05:27 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:05:27 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/03 User Edit Profile" time="136.771" classname="Test Cases/01 Web/02 Feature Files/03 User Edit Profile" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:05:27 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/03 User Edit Profile: Test Cases/01 Web/02 Feature Files/03 User Edit Profile
+
+2023-08-23 04:05:27 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:05:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:05:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:05:27 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:05:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:05:28 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:05:30 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:05:30 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:05:30 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/03 User Edit Profile.feature"): Feature file: 'Include/features/03 User Edit Profile.feature' was passed
+
+2023-08-23 04:05:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/03 User Edit Profile.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738330581'...
+
+2023-08-23 04:05:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Edit Profile Negative - Empty City: SCENARIO User Edit Profile Negative - Empty City
+
+2023-08-23 04:05:31 - [TEST_STEP][PASSED] - the user logs in with previously created account: the user logs in with previously created account
+
+2023-08-23 04:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:05:35 - [MESSAGE][PASSED] - Text 'qae10_gr03_buyer_1692738216125_870036964@example.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:05:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:05:44 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:05:44 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:05:44 - [MESSAGE][PASSED] - the user logs in with previously created account
+
+2023-08-23 04:05:44 - [TEST_STEP][PASSED] - the user navigates to "Edit Profile" page: the user navigates to "Edit Profile" page
+
+2023-08-23 04:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/div_First_Name' is clicked on
+
+2023-08-23 04:05:48 - [MESSAGE][PASSED] - the user navigates to "Edit Profile" page
+
+2023-08-23 04:05:48 - [TEST_STEP][PASSED] - the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty: the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty
+
+2023-08-23 04:05:50 - [MESSAGE][PASSED] - File 'C://Uploads//profile-pic.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Lengkapi Info Akun_useravatar'
+
+2023-08-23 04:05:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:06:02 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KotaSoloJogjaJakartaBandungSemarang'  using regular expression
+
+2023-08-23 04:06:05 - [MESSAGE][PASSED] - Text 'Jl. Budi Mulia 01' is set on object 'Object Repository/Page_SecondHand/textarea_Jl. Budi Mulia 01'
+
+2023-08-23 04:06:08 - [MESSAGE][PASSED] - Text '080989999' is set on object 'Object Repository/Page_SecondHand/input_No Handphone_userphone_number'
+
+2023-08-23 04:06:08 - [MESSAGE][PASSED] - the user uploads a profile picture, enters a name John Doe, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the city field empty
+
+2023-08-23 04:06:08 - [TEST_STEP][PASSED] - the user clicks on "Save Changes": the user clicks on "Save Changes"
+
+2023-08-23 04:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:06:14 - [MESSAGE][PASSED] - the user clicks on "Save Changes"
+
+2023-08-23 04:06:14 - [TEST_STEP][PASSED] - the user remains on the profile edit page: the user remains on the profile edit page
+
+2023-08-23 04:06:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:06:19 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/profiles'
+
+2023-08-23 04:06:19 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/profiles' and expected text 'https://secondhand.binaracademy.org/profiles' are matched 
+
+2023-08-23 04:06:19 - [MESSAGE][PASSED] - the user remains on the profile edit page
+
+2023-08-23 04:06:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Edit Profile Negative - Empty Name: SCENARIO User Edit Profile Negative - Empty Name
+
+2023-08-23 04:06:19 - [TEST_STEP][PASSED] - the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty: the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty
+
+2023-08-23 04:06:22 - [MESSAGE][PASSED] - File 'C://Uploads//profile-pic.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Lengkapi Info Akun_useravatar'
+
+2023-08-23 04:06:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:06:35 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KotaSoloJogjaJakartaBandungSemarang'  using regular expression
+
+2023-08-23 04:06:41 - [MESSAGE][PASSED] - Text 'Jl. Budi Mulia 01' is set on object 'Object Repository/Page_SecondHand/textarea_Jl. Budi Mulia 01'
+
+2023-08-23 04:06:44 - [MESSAGE][PASSED] - Text '080989999' is set on object 'Object Repository/Page_SecondHand/input_No Handphone_userphone_number'
+
+2023-08-23 04:06:44 - [MESSAGE][PASSED] - the user uploads a profile picture, selects a city 3, enters an address Jl. Budi Mulia 01, enters a phone number 080989999 and leaves the name field empty
+
+2023-08-23 04:06:44 - [TEST_STEP][PASSED] - the user clicks on "Save Changes": the user clicks on "Save Changes"
+
+2023-08-23 04:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:06:45 - [MESSAGE][PASSED] - the user clicks on "Save Changes"
+
+2023-08-23 04:06:45 - [TEST_STEP][PASSED] - the user remains on the profile edit page: the user remains on the profile edit page
+
+2023-08-23 04:06:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:06:50 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/profiles'
+
+2023-08-23 04:06:50 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/profiles' and expected text 'https://secondhand.binaracademy.org/profiles' are matched 
+
+2023-08-23 04:06:50 - [MESSAGE][PASSED] - the user remains on the profile edit page
+
+2023-08-23 04:06:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Edit Profile Negative - Empty Address: SCENARIO User Edit Profile Negative - Empty Address
+
+2023-08-23 04:06:50 - [TEST_STEP][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty: the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty
+
+2023-08-23 04:06:51 - [MESSAGE][PASSED] - File 'C://Uploads//profile-pic.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Lengkapi Info Akun_useravatar'
+
+2023-08-23 04:06:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:06:55 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KotaSoloJogjaJakartaBandungSemarang'  using regular expression
+
+2023-08-23 04:06:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/textarea_Jl. Budi Mulia 01'
+
+2023-08-23 04:07:00 - [MESSAGE][PASSED] - Text '080989999' is set on object 'Object Repository/Page_SecondHand/input_No Handphone_userphone_number'
+
+2023-08-23 04:07:00 - [MESSAGE][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters a phone number 080989999 and leaves the address field empty
+
+2023-08-23 04:07:00 - [TEST_STEP][PASSED] - the user clicks on "Save Changes": the user clicks on "Save Changes"
+
+2023-08-23 04:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:07:02 - [MESSAGE][PASSED] - the user clicks on "Save Changes"
+
+2023-08-23 04:07:02 - [TEST_STEP][PASSED] - the user remains on the profile edit page: the user remains on the profile edit page
+
+2023-08-23 04:07:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:07:07 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/profiles'
+
+2023-08-23 04:07:07 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/profiles' and expected text 'https://secondhand.binaracademy.org/profiles' are matched 
+
+2023-08-23 04:07:07 - [MESSAGE][PASSED] - the user remains on the profile edit page
+
+2023-08-23 04:07:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Edit Profile Negative - Empty Phone Number: SCENARIO User Edit Profile Negative - Empty Phone Number
+
+2023-08-23 04:07:07 - [TEST_STEP][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty: the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty
+
+2023-08-23 04:07:08 - [MESSAGE][PASSED] - File 'C://Uploads//profile-pic.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Lengkapi Info Akun_useravatar'
+
+2023-08-23 04:07:11 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:07:12 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KotaSoloJogjaJakartaBandungSemarang'  using regular expression
+
+2023-08-23 04:07:15 - [MESSAGE][PASSED] - Text 'Jl. Budi Mulia 01' is set on object 'Object Repository/Page_SecondHand/textarea_Jl. Budi Mulia 01'
+
+2023-08-23 04:07:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_No Handphone_userphone_number'
+
+2023-08-23 04:07:17 - [MESSAGE][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and leaves the phone number field empty
+
+2023-08-23 04:07:17 - [TEST_STEP][PASSED] - the user clicks on "Save Changes": the user clicks on "Save Changes"
+
+2023-08-23 04:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:07:19 - [MESSAGE][PASSED] - the user clicks on "Save Changes"
+
+2023-08-23 04:07:19 - [TEST_STEP][PASSED] - the user remains on the profile edit page: the user remains on the profile edit page
+
+2023-08-23 04:07:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:07:24 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/profiles'
+
+2023-08-23 04:07:24 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/profiles' and expected text 'https://secondhand.binaracademy.org/profiles' are matched 
+
+2023-08-23 04:07:24 - [MESSAGE][PASSED] - the user remains on the profile edit page
+
+2023-08-23 04:07:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User Edit Profile Positive: SCENARIO User Edit Profile Positive
+
+2023-08-23 04:07:24 - [TEST_STEP][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999: the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999
+
+2023-08-23 04:07:25 - [MESSAGE][PASSED] - File 'C://Uploads//profile-pic.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Lengkapi Info Akun_useravatar'
+
+2023-08-23 04:07:28 - [MESSAGE][PASSED] - Text 'John Doe Smith' is set on object 'Object Repository/Page_SecondHand/input_Nama_username'
+
+2023-08-23 04:07:29 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KotaSoloJogjaJakartaBandungSemarang'  using regular expression
+
+2023-08-23 04:07:31 - [MESSAGE][PASSED] - Text 'Jl. Budi Mulia 01' is set on object 'Object Repository/Page_SecondHand/textarea_Jl. Budi Mulia 01'
+
+2023-08-23 04:07:34 - [MESSAGE][PASSED] - Text '08123456789' is set on object 'Object Repository/Page_SecondHand/input_No Handphone_userphone_number'
+
+2023-08-23 04:07:34 - [MESSAGE][PASSED] - the user uploads a profile picture, enters a name John Doe, selects a city 3, enters an address Jl. Budi Mulia 01 and enters a phone number 080989999
+
+2023-08-23 04:07:34 - [TEST_STEP][PASSED] - the user clicks on "Save Changes": the user clicks on "Save Changes"
+
+2023-08-23 04:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:07:36 - [MESSAGE][PASSED] - the user clicks on "Save Changes"
+
+2023-08-23 04:07:36 - [TEST_STEP][PASSED] - the user is redirected to the homepage: the user is redirected to the homepage
+
+2023-08-23 04:07:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:07:41 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:07:41 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:07:41 - [MESSAGE][PASSED] - the user is redirected to the homepage
+
+2023-08-23 04:07:41 - [TEST_STEP][PASSED] - the user clicks on "Profil Saya": the user clicks on "Profil Saya"
+
+2023-08-23 04:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:07:42 - [MESSAGE][PASSED] - the user clicks on "Profil Saya"
+
+2023-08-23 04:07:42 - [TEST_STEP][PASSED] - the user's name John and city Jakarta are displayed: the user's name John and city Jakarta are displayed
+
+2023-08-23 04:07:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_First_Name' are matched.
+
+2023-08-23 04:07:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_City' are matched.
+
+2023-08-23 04:07:43 - [MESSAGE][PASSED] - the user's name John and city Jakarta are displayed
+
+2023-08-23 04:07:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/03 User Edit Profile.feature' was passed
+
+2023-08-23 04:07:43 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:07:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:07:43 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:07:43 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/04 Seller Add New Product" time="236.291" classname="Test Cases/01 Web/02 Feature Files/04 Seller Add New Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:07:43 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/04 Seller Add New Product: Test Cases/01 Web/02 Feature Files/04 Seller Add New Product
+
+2023-08-23 04:07:43 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:07:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:07:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:07:43 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:07:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:07:45 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:07:46 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:07:46 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:07:47 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/04 Seller Add New Product.feature"): Feature file: 'Include/features/04 Seller Add New Product.feature' was passed
+
+2023-08-23 04:07:47 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/04 Seller Add New Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738467130'...
+
+2023-08-23 04:07:48 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with an empty product category: SCENARIO Seller adds a new product with an empty product category
+
+2023-08-23 04:07:48 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:07:52 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:07:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:08:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:08:01 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:08:01 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:08:01 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:08:01 - [TEST_STEP][PASSED] - the seller navigates to the "Add New Product" page: the seller navigates to the "Add New Product" page
+
+2023-08-23 04:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Jual' is clicked on
+
+2023-08-23 04:08:03 - [MESSAGE][PASSED] - the seller navigates to the "Add New Product" page
+
+2023-08-23 04:08:03 - [TEST_STEP][PASSED] - the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg: the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:08:32 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:08:36 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:08:40 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:08:41 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:08:41 - [MESSAGE][PASSED] - the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:08:41 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:08:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:08:48 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-SM', ip: '192.168.8.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\netiz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae6ebc01ffb5e5be154f8a46b08116a
+
+2023-08-23 04:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:08:51 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:08:51 - [TEST_STEP][PASSED] - an error message for the empty product category should be displayed: an error message for the empty product category should be displayed
+
+2023-08-23 04:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Category must exist' is present
+
+2023-08-23 04:08:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Category must exist' are matched.
+
+2023-08-23 04:08:52 - [MESSAGE][PASSED] - an error message for the empty product category should be displayed
+
+2023-08-23 04:08:52 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:08:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:08:55 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:08:55 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:08:55 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:08:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with an empty product name: SCENARIO Seller adds a new product with an empty product name
+
+2023-08-23 04:08:55 - [TEST_STEP][PASSED] - the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:08:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:09:05 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:09:12 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:09:16 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:09:18 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:09:18 - [MESSAGE][PASSED] - the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:09:18 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:09:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:09:25 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:09:25 - [TEST_STEP][PASSED] - an error message for the empty product name should be displayed: an error message for the empty product name should be displayed
+
+2023-08-23 04:09:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Name cant be blank' is present
+
+2023-08-23 04:09:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Name cant be blank' are matched.
+
+2023-08-23 04:09:26 - [MESSAGE][PASSED] - an error message for the empty product name should be displayed
+
+2023-08-23 04:09:26 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:09:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:09:29 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:09:29 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:09:29 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:09:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with an empty product price: SCENARIO Seller adds a new product with an empty product price
+
+2023-08-23 04:09:29 - [TEST_STEP][PASSED] - the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:09:35 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:09:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:09:40 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:09:43 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:09:44 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:09:44 - [MESSAGE][PASSED] - the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:09:44 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:09:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:09:51 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-SM', ip: '192.168.8.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\netiz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae6ebc01ffb5e5be154f8a46b08116a
+
+2023-08-23 04:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:09:53 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:09:53 - [TEST_STEP][PASSED] - an error message for the empty product price should be displayed: an error message for the empty product price should be displayed
+
+2023-08-23 04:09:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Price cant be blank' is present
+
+2023-08-23 04:09:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Price cant be blank' are matched.
+
+2023-08-23 04:09:58 - [MESSAGE][PASSED] - an error message for the empty product price should be displayed
+
+2023-08-23 04:09:58 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:10:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:10:01 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:10:01 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:10:01 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:10:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with an empty product description: SCENARIO Seller adds a new product with an empty product description
+
+2023-08-23 04:10:01 - [TEST_STEP][PASSED] - the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg: the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:10:07 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:10:13 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:10:16 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:10:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:10:20 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:10:20 - [MESSAGE][PASSED] - the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:10:20 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:10:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:10:27 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:10:27 - [TEST_STEP][PASSED] - an error message for the empty product description should be displayed: an error message for the empty product description should be displayed
+
+2023-08-23 04:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:10:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Description cant be blank' is present
+
+2023-08-23 04:10:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Description cant be blank' are matched.
+
+2023-08-23 04:10:28 - [MESSAGE][PASSED] - an error message for the empty product description should be displayed
+
+2023-08-23 04:10:28 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:10:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:10:31 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:10:31 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:10:31 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:10:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with all valid details: SCENARIO Seller adds a new product with all valid details
+
+2023-08-23 04:10:31 - [TEST_STEP][PASSED] - the seller fills valid product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller fills valid product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:10:36 - [MESSAGE][PASSED] - Text 'Laptop 1692738631243' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:10:40 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:10:44 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:10:47 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:10:48 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:10:48 - [MESSAGE][PASSED] - the seller fills valid product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:10:48 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:10:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:10:56 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:10:56 - [TEST_STEP][PASSED] - the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta: the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:10:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Description' are matched.
+
+2023-08-23 04:10:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/h5_Product_Name' are matched.
+
+2023-08-23 04:10:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Category' are matched.
+
+2023-08-23 04:10:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Price' are matched.
+
+2023-08-23 04:10:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_Name' are matched.
+
+2023-08-23 04:10:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_City' are matched.
+
+2023-08-23 04:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Product_Page/img_Product_Image_Single' is present
+
+2023-08-23 04:10:59 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31249'
+
+2023-08-23 04:10:59 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31249][4]
+
+2023-08-23 04:10:59 - [MESSAGE][PASSED] - the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:10:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller adds a new product with empty profile: SCENARIO Seller adds a new product with empty profile
+
+2023-08-23 04:10:59 - [TEST_STEP][PASSED] - the user navigates to the home page: the user navigates to the home page
+
+2023-08-23 04:11:01 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:11:01 - [MESSAGE][PASSED] - the user navigates to the home page
+
+2023-08-23 04:11:01 - [TEST_STEP][PASSED] - the user clicks on "Profil Saya": the user clicks on "Profil Saya"
+
+2023-08-23 04:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:11:03 - [MESSAGE][PASSED] - the user clicks on "Profil Saya"
+
+2023-08-23 04:11:03 - [TEST_STEP][PASSED] - the user clicks on "Keluar": the user clicks on "Keluar"
+
+2023-08-23 04:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/button_Keluar' is clicked on
+
+2023-08-23 04:11:05 - [MESSAGE][PASSED] - the user clicks on "Keluar"
+
+2023-08-23 04:11:05 - [TEST_STEP][PASSED] - the seller is logged in qae_gr03_seller_empty_02@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in qae_gr03_seller_empty_02@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:11:22 - [MESSAGE][PASSED] - Text 'qae_gr03_seller_empty_02@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:11:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:11:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:11:31 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:11:31 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:11:31 - [MESSAGE][PASSED] - the seller is logged in qae_gr03_seller_empty_02@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:11:31 - [TEST_STEP][PASSED] - the seller navigates to the "Add New Product" page: the seller navigates to the "Add New Product" page
+
+2023-08-23 04:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Jual' is clicked on
+
+2023-08-23 04:11:34 - [MESSAGE][PASSED] - the seller navigates to the "Add New Product" page
+
+2023-08-23 04:11:34 - [TEST_STEP][PASSED] - the seller is redirected to the edit profile page: the seller is redirected to the edit profile page
+
+2023-08-23 04:11:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:11:39 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/profiles?redirect_url=%2Fproducts%2Fnew'
+
+2023-08-23 04:11:39 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/profiles?redirect_url=%2Fproducts%2Fnew' and expected text 'https://secondhand.binaracademy.org/profiles?redirect_url=%2Fproducts%2Fnew' are matched 
+
+2023-08-23 04:11:39 - [MESSAGE][PASSED] - the seller is redirected to the edit profile page
+
+2023-08-23 04:11:39 - [MESSAGE][PASSED] - Feature file: 'Include/features/04 Seller Add New Product.feature' was passed
+
+2023-08-23 04:11:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:11:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:11:40 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:11:40 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/05 Seller Preview And Add New Product" time="149.885" classname="Test Cases/01 Web/02 Feature Files/05 Seller Preview And Add New Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:11:40 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/05 Seller Preview And Add New Product: Test Cases/01 Web/02 Feature Files/05 Seller Preview And Add New Product
+
+2023-08-23 04:11:40 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:11:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:11:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:11:40 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:11:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:11:41 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:11:43 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:11:43 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:11:43 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/05 Seller Preview And Add New Product.feature"): Feature file: 'Include/features/05 Seller Preview And Add New Product.feature' was passed
+
+2023-08-23 04:11:43 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/05 Seller Preview And Add New Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738703805'...
+
+2023-08-23 04:11:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller previews a new product with an empty product category: SCENARIO Seller previews a new product with an empty product category
+
+2023-08-23 04:11:44 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:11:50 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:11:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:12:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:12:00 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:12:00 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:12:00 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:12:00 - [TEST_STEP][PASSED] - the seller navigates to the "Add New Product" page: the seller navigates to the "Add New Product" page
+
+2023-08-23 04:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Jual' is clicked on
+
+2023-08-23 04:12:03 - [MESSAGE][PASSED] - the seller navigates to the "Add New Product" page
+
+2023-08-23 04:12:03 - [TEST_STEP][PASSED] - the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg: the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:12:07 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:12:12 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:12:15 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:12:16 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:12:16 - [MESSAGE][PASSED] - the seller leaves the product category field empty and fills valid product name Laptop, price 5000000, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:12:16 - [TEST_STEP][PASSED] - clicks on the "Preview" button: clicks on the "Preview" button
+
+2023-08-23 04:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Preview' is clicked on
+
+2023-08-23 04:12:21 - [MESSAGE][PASSED] - clicks on the "Preview" button
+
+2023-08-23 04:12:21 - [TEST_STEP][PASSED] - an error message for the empty product category should be displayed: an error message for the empty product category should be displayed
+
+2023-08-23 04:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:12:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Category must exist' is present
+
+2023-08-23 04:12:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Category must exist' are matched.
+
+2023-08-23 04:12:22 - [MESSAGE][PASSED] - an error message for the empty product category should be displayed
+
+2023-08-23 04:12:22 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:12:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:12:25 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:12:25 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:12:25 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:12:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller previews a new product with an empty product name: SCENARIO Seller previews a new product with an empty product name
+
+2023-08-23 04:12:25 - [TEST_STEP][PASSED] - the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:12:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:12:37 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:12:40 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:12:46 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:12:49 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:12:49 - [MESSAGE][PASSED] - the seller enters an empty product name and fills valid product price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:12:49 - [TEST_STEP][PASSED] - clicks on the "Preview" button: clicks on the "Preview" button
+
+2023-08-23 04:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Preview' is clicked on
+
+2023-08-23 04:12:55 - [MESSAGE][PASSED] - clicks on the "Preview" button
+
+2023-08-23 04:12:55 - [TEST_STEP][PASSED] - an error message for the empty product name should be displayed: an error message for the empty product name should be displayed
+
+2023-08-23 04:12:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:12:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Name cant be blank' is present
+
+2023-08-23 04:12:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Name cant be blank' are matched.
+
+2023-08-23 04:12:56 - [MESSAGE][PASSED] - an error message for the empty product name should be displayed
+
+2023-08-23 04:12:56 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:12:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:12:59 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:12:59 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:12:59 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:12:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller previews a new product with an empty product price: SCENARIO Seller previews a new product with an empty product price
+
+2023-08-23 04:12:59 - [TEST_STEP][PASSED] - the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:05 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:13:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:13:11 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:13:14 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:13:15 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:13:15 - [MESSAGE][PASSED] - the seller leaves the product price field empty and fills valid product name Laptop, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:15 - [TEST_STEP][PASSED] - clicks on the "Preview" button: clicks on the "Preview" button
+
+2023-08-23 04:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Preview' is clicked on
+
+2023-08-23 04:13:20 - [MESSAGE][PASSED] - clicks on the "Preview" button
+
+2023-08-23 04:13:20 - [TEST_STEP][PASSED] - an error message for the empty product price should be displayed: an error message for the empty product price should be displayed
+
+2023-08-23 04:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:13:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Price cant be blank' is present
+
+2023-08-23 04:13:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Price cant be blank' are matched.
+
+2023-08-23 04:13:21 - [MESSAGE][PASSED] - an error message for the empty product price should be displayed
+
+2023-08-23 04:13:21 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:13:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:13:24 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:13:24 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:13:24 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:13:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller previews a new product with an empty product description: SCENARIO Seller previews a new product with an empty product description
+
+2023-08-23 04:13:24 - [TEST_STEP][PASSED] - the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg: the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:27 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:13:29 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:13:30 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:13:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:13:34 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:13:34 - [MESSAGE][PASSED] - the seller leaves the product description field empty and fills valid product name Laptop, price 5000000, category 4 and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:34 - [TEST_STEP][PASSED] - clicks on the "Preview" button: clicks on the "Preview" button
+
+2023-08-23 04:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Preview' is clicked on
+
+2023-08-23 04:13:39 - [MESSAGE][PASSED] - clicks on the "Preview" button
+
+2023-08-23 04:13:39 - [TEST_STEP][PASSED] - an error message for the empty product description should be displayed: an error message for the empty product description should be displayed
+
+2023-08-23 04:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Description cant be blank' is present
+
+2023-08-23 04:13:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Description cant be blank' are matched.
+
+2023-08-23 04:13:40 - [MESSAGE][PASSED] - an error message for the empty product description should be displayed
+
+2023-08-23 04:13:40 - [TEST_STEP][PASSED] - the seller remains on the "Add New Product" page: the seller remains on the "Add New Product" page
+
+2023-08-23 04:13:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:13:43 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:13:43 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:13:43 - [MESSAGE][PASSED] - the seller remains on the "Add New Product" page
+
+2023-08-23 04:13:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller previews a new product with all valid details: SCENARIO Seller previews a new product with all valid details
+
+2023-08-23 04:13:43 - [TEST_STEP][PASSED] - the seller fills valid the to-be-previewed product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg: the seller fills valid the to-be-previewed product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:46 - [MESSAGE][PASSED] - Text 'Laptop 1692738823530' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:13:48 - [MESSAGE][PASSED] - Text '5000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:13:50 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:13:52 - [MESSAGE][PASSED] - Text 'Used laptop' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:13:54 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-1.jpg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:13:54 - [MESSAGE][PASSED] - the seller fills valid the to-be-previewed product name Laptop, price 5000000, category 4, description Used laptop and image C://Uploads//laptop-1.jpg
+
+2023-08-23 04:13:54 - [TEST_STEP][PASSED] - clicks on the "Preview" button: clicks on the "Preview" button
+
+2023-08-23 04:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Preview' is clicked on
+
+2023-08-23 04:14:00 - [MESSAGE][PASSED] - clicks on the "Preview" button
+
+2023-08-23 04:14:00 - [TEST_STEP][PASSED] - the to-be-previewed product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta: the to-be-previewed product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:14:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Description' are matched.
+
+2023-08-23 04:14:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/h5_Product_Name' are matched.
+
+2023-08-23 04:14:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Category' are matched.
+
+2023-08-23 04:14:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Price' are matched.
+
+2023-08-23 04:14:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_Name' are matched.
+
+2023-08-23 04:14:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_City' are matched.
+
+2023-08-23 04:14:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Product_Page/img_Product_Image_Single' is present
+
+2023-08-23 04:14:02 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:14:02 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:14:02 - [MESSAGE][PASSED] - the to-be-previewed product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:14:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller publishes the previewed product: SCENARIO Seller publishes the previewed product
+
+2023-08-23 04:14:02 - [TEST_STEP][PASSED] - the seller clicks on the "Terbitkan" button on product page: the seller clicks on the "Terbitkan" button on product page
+
+2023-08-23 04:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/input_Publish' is clicked on
+
+2023-08-23 04:14:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:14:06 - [MESSAGE][PASSED] - the seller clicks on the "Terbitkan" button on product page
+
+2023-08-23 04:14:06 - [TEST_STEP][PASSED] - the "Terbitkan" button disappears: the "Terbitkan" button disappears
+
+2023-08-23 04:14:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:14:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_SecondHand/Product_Page/input_Publish' located by 'By.xpath: /html[1]/body[1]/section[1]/section[1]/div[1]/div[2]/div[1]/div[1]/form[1]/input[5]' is not present after '30' second(s)
+
+2023-08-23 04:14:07 - [MESSAGE][PASSED] - the "Terbitkan" button disappears
+
+2023-08-23 04:14:07 - [TEST_STEP][PASSED] - the product page refreshes and the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta: the product page refreshes and the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:14:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Description' are matched.
+
+2023-08-23 04:14:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/h5_Product_Name' are matched.
+
+2023-08-23 04:14:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Category' are matched.
+
+2023-08-23 04:14:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Price' are matched.
+
+2023-08-23 04:14:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_Name' are matched.
+
+2023-08-23 04:14:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_City' are matched.
+
+2023-08-23 04:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Product_Page/img_Product_Image_Single' is present
+
+2023-08-23 04:14:09 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:14:09 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:14:09 - [MESSAGE][PASSED] - the product page refreshes and the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:14:09 - [MESSAGE][PASSED] - Feature file: 'Include/features/05 Seller Preview And Add New Product.feature' was passed
+
+2023-08-23 04:14:09 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:14:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:14:10 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:14:10 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/06 Seller Edit Product" time="147.32" classname="Test Cases/01 Web/02 Feature Files/06 Seller Edit Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:14:10 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/06 Seller Edit Product: Test Cases/01 Web/02 Feature Files/06 Seller Edit Product
+
+2023-08-23 04:14:10 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:14:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:14:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:14:10 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:14:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:14:11 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:14:13 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:14:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:14:13 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/06 Seller Edit Product.feature"): Feature file: 'Include/features/06 Seller Edit Product.feature' was passed
+
+2023-08-23 04:14:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/06 Seller Edit Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692738853525'...
+
+2023-08-23 04:14:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller edits a product with an empty product category: SCENARIO Seller edits a product with an empty product category
+
+2023-08-23 04:14:14 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:14:18 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:14:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:14:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:14:27 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:14:27 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:14:27 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:14:27 - [TEST_STEP][PASSED] - the seller navigates to the "Product Saya" page: the seller navigates to the "Product Saya" page
+
+2023-08-23 04:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/a_Produk Saya' is clicked on
+
+2023-08-23 04:14:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:14:33 - [MESSAGE][PASSED] - the seller navigates to the "Product Saya" page
+
+2023-08-23 04:14:33 - [TEST_STEP][PASSED] - the seller clicks on the product: the seller clicks on the product
+
+2023-08-23 04:14:34 - [MESSAGE][PASSED] - Object 'Product Item' is present
+
+2023-08-23 04:14:35 - [MESSAGE][PASSED] - Object: 'Product Item' is clicked on
+
+2023-08-23 04:14:35 - [MESSAGE][PASSED] - the seller clicks on the product
+
+2023-08-23 04:14:35 - [TEST_STEP][PASSED] - the seller clicks on the "Edit" button: the seller clicks on the "Edit" button
+
+2023-08-23 04:14:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/a_Edit' is clicked on
+
+2023-08-23 04:14:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:14:48 - [MESSAGE][PASSED] - the seller clicks on the "Edit" button
+
+2023-08-23 04:14:48 - [TEST_STEP][PASSED] - the seller leaves the to-be-edited product category field empty and fills valid product name Notebook, price 8000000, description Used notebook and image C://Uploads//laptop-2.jpeg: the seller leaves the to-be-edited product category field empty and fills valid product name Notebook, price 8000000, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:14:51 - [MESSAGE][PASSED] - Text 'Notebook' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:14:53 - [MESSAGE][PASSED] - Text '8000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:14:56 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:14:58 - [MESSAGE][PASSED] - Text 'Used notebook' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/button_Delete_Image_1' is clicked on
+
+2023-08-23 04:15:01 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-2.jpeg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:15:01 - [MESSAGE][PASSED] - the seller leaves the to-be-edited product category field empty and fills valid product name Notebook, price 8000000, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:15:01 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:15:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:15:08 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:15:08 - [TEST_STEP][PASSED] - an error message for the empty product category should be displayed: an error message for the empty product category should be displayed
+
+2023-08-23 04:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Category must exist' is present
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Category must exist' are matched.
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - an error message for the empty product category should be displayed
+
+2023-08-23 04:15:09 - [TEST_STEP][PASSED] - the seller remains on the "Edit Product" page: the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:09 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:15:09 - [MESSAGE][PASSED] - the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller edits a product with an empty product name: SCENARIO Seller edits a product with an empty product name
+
+2023-08-23 04:15:09 - [TEST_STEP][PASSED] - the seller enters an empty the to-be-edited product name and fills valid product price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg: the seller enters an empty the to-be-edited product name and fills valid product price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:15:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:15:14 - [MESSAGE][PASSED] - Text '8000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:15:17 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:15:19 - [MESSAGE][PASSED] - Text 'Used notebook' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:15:21 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-2.jpeg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:15:21 - [MESSAGE][PASSED] - the seller enters an empty the to-be-edited product name and fills valid product price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:15:21 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:15:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:15:29 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:15:29 - [TEST_STEP][PASSED] - an error message for the empty product name should be displayed: an error message for the empty product name should be displayed
+
+2023-08-23 04:15:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Name cant be blank' is present
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Name cant be blank' are matched.
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - an error message for the empty product name should be displayed
+
+2023-08-23 04:15:31 - [TEST_STEP][PASSED] - the seller remains on the "Edit Product" page: the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:31 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:15:31 - [MESSAGE][PASSED] - the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller edits a product with an empty product price: SCENARIO Seller edits a product with an empty product price
+
+2023-08-23 04:15:31 - [TEST_STEP][PASSED] - the seller leaves the to-be-edited product price field empty and fills valid product name Notebook, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg: the seller leaves the to-be-edited product price field empty and fills valid product name Notebook, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:15:34 - [MESSAGE][PASSED] - Text 'Notebook' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:15:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:15:37 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:15:40 - [MESSAGE][PASSED] - Text 'Used notebook' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:15:41 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-2.jpeg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:15:41 - [MESSAGE][PASSED] - the seller leaves the to-be-edited product price field empty and fills valid product name Notebook, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:15:41 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:15:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:15:48 - [MESSAGE][ERROR] - move target out of bounds
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-SM', ip: '192.168.8.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\netiz\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 723d5d49aaff418005351b2aca17f613
+
+2023-08-23 04:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:15:50 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:15:50 - [TEST_STEP][PASSED] - an error message for the empty product price should be displayed: an error message for the empty product price should be displayed
+
+2023-08-23 04:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Price cant be blank' is present
+
+2023-08-23 04:15:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Price cant be blank' are matched.
+
+2023-08-23 04:15:55 - [MESSAGE][PASSED] - an error message for the empty product price should be displayed
+
+2023-08-23 04:15:55 - [TEST_STEP][PASSED] - the seller remains on the "Edit Product" page: the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:55 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:55 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:15:55 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:15:55 - [MESSAGE][PASSED] - the seller remains on the "Edit Product" page
+
+2023-08-23 04:15:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller edits a product with an empty product description: SCENARIO Seller edits a product with an empty product description
+
+2023-08-23 04:15:55 - [TEST_STEP][PASSED] - the seller leaves the to-be-edited product description field empty and fills valid product name Notebook, price 8000000, category 1 and image C://Uploads//laptop-2.jpeg: the seller leaves the to-be-edited product description field empty and fills valid product name Notebook, price 8000000, category 1 and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:16:00 - [MESSAGE][PASSED] - Text 'Notebook' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:16:02 - [MESSAGE][PASSED] - Text '8000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:16:04 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:16:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:16:08 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-2.jpeg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:16:08 - [MESSAGE][PASSED] - the seller leaves the to-be-edited product description field empty and fills valid product name Notebook, price 8000000, category 1 and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:16:08 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:16:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:16:15 - [TEST_STEP][PASSED] - an error message for the empty product description should be displayed: an error message for the empty product description should be displayed
+
+2023-08-23 04:16:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/div_Description cant be blank' is present
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/div_Description cant be blank' are matched.
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - an error message for the empty product description should be displayed
+
+2023-08-23 04:16:15 - [TEST_STEP][PASSED] - the seller remains on the "Edit Product" page: the seller remains on the "Edit Product" page
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:16:15 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:16:15 - [MESSAGE][PASSED] - the seller remains on the "Edit Product" page
+
+2023-08-23 04:16:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller edits a product with all valid details: SCENARIO Seller edits a product with all valid details
+
+2023-08-23 04:16:15 - [TEST_STEP][PASSED] - the seller fills valid to-be-edited product name Notebook, price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg: the seller fills valid to-be-edited product name Notebook, price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:16:18 - [MESSAGE][PASSED] - Text 'Notebook 1692738975979' is set on object 'Object Repository/Page_SecondHand/input_Nama Produk_productname'
+
+2023-08-23 04:16:21 - [MESSAGE][PASSED] - Text '8000000' is set on object 'Object Repository/Page_SecondHand/Product_Form/input_Price'
+
+2023-08-23 04:16:22 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_SecondHand/select_Pilih KategoriHobiKendaraanBajuElekt_20972a'  using regular expression
+
+2023-08-23 04:16:25 - [MESSAGE][PASSED] - Text 'Used notebook' is set on object 'Object Repository/Page_SecondHand/textarea_Deskripsi_productdescription'
+
+2023-08-23 04:16:26 - [MESSAGE][PASSED] - File 'C://Uploads//laptop-2.jpeg' sent to object: 'Object Repository/Page_SecondHand/input_Deskripsi_productimages'
+
+2023-08-23 04:16:26 - [MESSAGE][PASSED] - the seller fills valid to-be-edited product name Notebook, price 8000000, category 1, description Used notebook and image C://Uploads//laptop-2.jpeg
+
+2023-08-23 04:16:26 - [TEST_STEP][PASSED] - clicks on the "Terbitkan" button: clicks on the "Terbitkan" button
+
+2023-08-23 04:16:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Form/label_Terbitkan' is clicked on
+
+2023-08-23 04:16:34 - [MESSAGE][PASSED] - clicks on the "Terbitkan" button
+
+2023-08-23 04:16:34 - [TEST_STEP][PASSED] - the edited product is submitted with valid information Hobi, Rp 8.000.000, Used notebook, Seller QA Group 03 Wave 10, Jakarta: the edited product is submitted with valid information Hobi, Rp 8.000.000, Used notebook, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:16:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Description' are matched.
+
+2023-08-23 04:16:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/h5_Product_Name' are matched.
+
+2023-08-23 04:16:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Category' are matched.
+
+2023-08-23 04:16:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Price' are matched.
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_Name' are matched.
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_City' are matched.
+
+2023-08-23 04:16:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Product_Page/img_Product_Image_Single' is present
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31250'
+
+2023-08-23 04:16:36 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31250][4]
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - the edited product is submitted with valid information Hobi, Rp 8.000.000, Used notebook, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:16:36 - [MESSAGE][PASSED] - Feature file: 'Include/features/06 Seller Edit Product.feature' was passed
+
+2023-08-23 04:16:36 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:16:37 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:16:37 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/07 User Search Product" time="16.825" classname="Test Cases/01 Web/02 Feature Files/07 User Search Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:16:54 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/07 User Search Product: Test Cases/01 Web/02 Feature Files/07 User Search Product
+
+2023-08-23 04:16:54 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:16:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:16:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:16:54 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:16:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:16:55 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:16:57 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:16:57 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:16:57 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/07 User Search Product.feature"): Feature file: 'Include/features/07 User Search Product.feature' was passed
+
+2023-08-23 04:16:57 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/07 User Search Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739017758'...
+
+2023-08-23 04:16:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User searches and views a product: SCENARIO User searches and views a product
+
+2023-08-23 04:16:58 - [TEST_STEP][PASSED] - the user enters the product name in the search field: the user enters the product name in the search field
+
+2023-08-23 04:17:01 - [MESSAGE][PASSED] - Text 'Laptop 1692738631243' is set on object 'Object Repository/Page_SecondHand/Navbar/input_Search'
+
+2023-08-23 04:17:01 - [MESSAGE][PASSED] - the user enters the product name in the search field
+
+2023-08-23 04:17:01 - [TEST_STEP][PASSED] - presses the Enter key: presses the Enter key
+
+2023-08-23 04:17:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_SecondHand/Navbar/input_Search'
+
+2023-08-23 04:17:02 - [MESSAGE][PASSED] - presses the Enter key
+
+2023-08-23 04:17:02 - [TEST_STEP][PASSED] - the search results should display the product name, category Hobi and price Rp 8.000.000: the search results should display the product name, category Hobi and price Rp 8.000.000
+
+2023-08-23 04:17:03 - [MESSAGE][PASSED] - Object 'Product Item' is present
+
+2023-08-23 04:17:03 - [MESSAGE][PASSED] - Object 'Product Item Category' is present
+
+2023-08-23 04:17:03 - [MESSAGE][PASSED] - Object 'Product Item Price' is present
+
+2023-08-23 04:17:03 - [MESSAGE][PASSED] - the search results should display the product name, category Hobi and price Rp 8.000.000
+
+2023-08-23 04:17:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User clicks the product to open the product page: SCENARIO User clicks the product to open the product page
+
+2023-08-23 04:17:03 - [TEST_STEP][PASSED] - the user clicks on the desired product from the search results: the user clicks on the desired product from the search results
+
+2023-08-23 04:17:04 - [MESSAGE][PASSED] - Scroll to object 'Product Item' successfully
+
+2023-08-23 04:17:05 - [MESSAGE][PASSED] - Object: 'Product Item' is clicked on
+
+2023-08-23 04:17:05 - [MESSAGE][PASSED] - the user clicks on the desired product from the search results
+
+2023-08-23 04:17:05 - [TEST_STEP][PASSED] - the user is redirected to the product details page: the user is redirected to the product details page
+
+2023-08-23 04:17:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:17:08 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31249'
+
+2023-08-23 04:17:08 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31249][4]
+
+2023-08-23 04:17:08 - [MESSAGE][PASSED] - the user is redirected to the product details page
+
+2023-08-23 04:17:08 - [TEST_STEP][PASSED] - the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta: the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:17:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Description' are matched.
+
+2023-08-23 04:17:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/h5_Product_Name' are matched.
+
+2023-08-23 04:17:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Category' are matched.
+
+2023-08-23 04:17:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/p_Product_Price' are matched.
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_Name' are matched.
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/div_Seller_City' are matched.
+
+2023-08-23 04:17:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Product_Page/img_Product_Image_Single' is present
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products/31249'
+
+2023-08-23 04:17:10 - [MESSAGE][INFO] - Product ID: [https:, , secondhand.binaracademy.org, products, 31249][4]
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - the product is submitted with valid information Elektronik, Rp 5.000.000, Used laptop, Seller QA Group 03 Wave 10, Jakarta
+
+2023-08-23 04:17:10 - [MESSAGE][PASSED] - Feature file: 'Include/features/07 User Search Product.feature' was passed
+
+2023-08-23 04:17:10 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:17:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:17:11 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:17:11 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/08 Buyer Negotiate Product" time="37.634" classname="Test Cases/01 Web/02 Feature Files/08 Buyer Negotiate Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:17:11 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/08 Buyer Negotiate Product: Test Cases/01 Web/02 Feature Files/08 Buyer Negotiate Product
+
+2023-08-23 04:17:11 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:17:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:17:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:17:11 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:17:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:17:12 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:17:14 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:17:14 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:17:14 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/08 Buyer Negotiate Product.feature"): Feature file: 'Include/features/08 Buyer Negotiate Product.feature' was passed
+
+2023-08-23 04:17:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/08 Buyer Negotiate Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739034761'...
+
+2023-08-23 04:17:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Buyer negotiates the price for a product: SCENARIO Buyer negotiates the price for a product
+
+2023-08-23 04:17:15 - [TEST_STEP][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=: the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:17:19 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:17:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:17:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:17:28 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:17:28 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:17:28 - [MESSAGE][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:17:28 - [TEST_STEP][PASSED] - the user navigates to the product page: the user navigates to the product page
+
+2023-08-23 04:17:30 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/products/31249' successfully
+
+2023-08-23 04:17:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:17:35 - [MESSAGE][PASSED] - the user navigates to the product page
+
+2023-08-23 04:17:35 - [TEST_STEP][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button: the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' is clicked on
+
+2023-08-23 04:17:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:17:39 - [MESSAGE][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:17:39 - [TEST_STEP][PASSED] - enters a negotiated offer price 3000000: enters a negotiated offer price 3000000
+
+2023-08-23 04:17:42 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Page_SecondHand/Product_Page/input_Offer_Price'
+
+2023-08-23 04:17:42 - [MESSAGE][PASSED] - enters a negotiated offer price 3000000
+
+2023-08-23 04:17:42 - [TEST_STEP][PASSED] - clicks the "Kirim" button: clicks the "Kirim" button
+
+2023-08-23 04:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/input_Send_Offer' is clicked on
+
+2023-08-23 04:17:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:17:47 - [MESSAGE][PASSED] - clicks the "Kirim" button
+
+2023-08-23 04:17:47 - [TEST_STEP][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual": the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:17:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' are matched.
+
+2023-08-23 04:17:48 - [MESSAGE][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:17:48 - [MESSAGE][PASSED] - Feature file: 'Include/features/08 Buyer Negotiate Product.feature' was passed
+
+2023-08-23 04:17:48 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:17:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:17:48 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:17:49 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/09 Seller Reject Product Offer" time="32.699" classname="Test Cases/01 Web/02 Feature Files/09 Seller Reject Product Offer" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:17:49 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/09 Seller Reject Product Offer: Test Cases/01 Web/02 Feature Files/09 Seller Reject Product Offer
+
+2023-08-23 04:17:49 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:17:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:17:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:17:49 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:17:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:17:50 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:17:52 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:17:52 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:17:52 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/09 Seller Reject Product Offer.feature"): Feature file: 'Include/features/09 Seller Reject Product Offer.feature' was passed
+
+2023-08-23 04:17:52 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/09 Seller Reject Product Offer.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739072388'...
+
+2023-08-23 04:17:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list on the navbar displays the product: SCENARIO The notification list on the navbar displays the product
+
+2023-08-23 04:17:53 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:17:57 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:17:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:18:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:18:06 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:18:06 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:18:06 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:18:06 - [TEST_STEP][PASSED] - clicks on the "Notifikasi" button: clicks on the "Notifikasi" button
+
+2023-08-23 04:18:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-23 04:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/a_Notifikasi_Button' is clicked on
+
+2023-08-23 04:18:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:18:10 - [MESSAGE][PASSED] - clicks on the "Notifikasi" button
+
+2023-08-23 04:18:10 - [TEST_STEP][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:18:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' are matched.
+
+2023-08-23 04:18:11 - [MESSAGE][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:18:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list page displays the product: SCENARIO The notification list page displays the product
+
+2023-08-23 04:18:11 - [TEST_STEP][PASSED] - the seller clicks on the "Penawaran produk" notification: the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' is clicked on
+
+2023-08-23 04:18:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:18:15 - [MESSAGE][PASSED] - the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:18:15 - [TEST_STEP][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:18:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/div_Offer_Description_1' are matched.
+
+2023-08-23 04:18:15 - [MESSAGE][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:18:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Seller rejects a product offer: SCENARIO Seller rejects a product offer
+
+2023-08-23 04:18:15 - [TEST_STEP][PASSED] - the seller clicks on the "Tolak" button: the seller clicks on the "Tolak" button
+
+2023-08-23 04:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/label_Reject_Button_1' is clicked on
+
+2023-08-23 04:18:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:18:20 - [MESSAGE][PASSED] - the seller clicks on the "Tolak" button
+
+2023-08-23 04:18:20 - [TEST_STEP][PASSED] - the the negotiated product item displays "Penawaran produk ditolak" text: the the negotiated product item displays "Penawaran produk ditolak" text
+
+2023-08-23 04:18:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/h6_Offer_Status_1' are matched.
+
+2023-08-23 04:18:21 - [MESSAGE][PASSED] - the the negotiated product item displays "Penawaran produk ditolak" text
+
+2023-08-23 04:18:21 - [MESSAGE][PASSED] - Feature file: 'Include/features/09 Seller Reject Product Offer.feature' was passed
+
+2023-08-23 04:18:21 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:18:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:18:21 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:18:21 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/10 Seller Approve Then Cancel Product Offer" time="83.34" classname="Test Cases/01 Web/02 Feature Files/10 Seller Approve Then Cancel Product Offer" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:18:21 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/10 Seller Approve Then Cancel Product Offer: Test Cases/01 Web/02 Feature Files/10 Seller Approve Then Cancel Product Offer
+
+2023-08-23 04:18:21 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:18:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:18:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:18:21 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:18:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:18:22 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:18:24 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:18:24 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:18:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/10 Seller Approve Then Cancel Offer.feature"): Feature file: 'Include/features/10 Seller Approve Then Cancel Offer.feature' was passed
+
+2023-08-23 04:18:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/10 Seller Approve Then Cancel Offer.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739105249'...
+
+2023-08-23 04:18:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list on the navbar displays the product: SCENARIO The notification list on the navbar displays the product
+
+2023-08-23 04:18:26 - [TEST_STEP][PASSED] - the buyer negotiates for a product: the buyer negotiates for a product
+
+2023-08-23 04:18:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/08 Buyer Negotiate Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739106542'...
+
+2023-08-23 04:18:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Buyer negotiates the price for a product: SCENARIO Buyer negotiates the price for a product
+
+2023-08-23 04:18:27 - [TEST_STEP][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=: the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:18:31 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:18:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:18:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:18:40 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:18:40 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:18:40 - [MESSAGE][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:18:40 - [TEST_STEP][PASSED] - the user navigates to the product page: the user navigates to the product page
+
+2023-08-23 04:18:42 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/products/31249' successfully
+
+2023-08-23 04:18:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:18:47 - [MESSAGE][PASSED] - the user navigates to the product page
+
+2023-08-23 04:18:47 - [TEST_STEP][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button: the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' is clicked on
+
+2023-08-23 04:18:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:18:51 - [MESSAGE][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:18:51 - [TEST_STEP][PASSED] - enters a negotiated offer price 3000000: enters a negotiated offer price 3000000
+
+2023-08-23 04:18:54 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Page_SecondHand/Product_Page/input_Offer_Price'
+
+2023-08-23 04:18:54 - [MESSAGE][PASSED] - enters a negotiated offer price 3000000
+
+2023-08-23 04:18:54 - [TEST_STEP][PASSED] - clicks the "Kirim" button: clicks the "Kirim" button
+
+2023-08-23 04:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/input_Send_Offer' is clicked on
+
+2023-08-23 04:18:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:18:58 - [MESSAGE][PASSED] - clicks the "Kirim" button
+
+2023-08-23 04:18:58 - [TEST_STEP][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual": the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' are matched.
+
+2023-08-23 04:18:59 - [MESSAGE][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:18:59 - [MESSAGE][PASSED] - Feature file: 'Include/features/08 Buyer Negotiate Product.feature' was passed
+
+2023-08-23 04:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/button_Keluar' is clicked on
+
+2023-08-23 04:19:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:05 - [MESSAGE][PASSED] - the buyer negotiates for a product
+
+2023-08-23 04:19:05 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:19:09 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:19:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:19:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:19:18 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:19:18 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:19:18 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:19:18 - [TEST_STEP][PASSED] - clicks on the "Notifikasi" button: clicks on the "Notifikasi" button
+
+2023-08-23 04:19:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-23 04:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/a_Notifikasi_Button' is clicked on
+
+2023-08-23 04:19:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:22 - [MESSAGE][PASSED] - clicks on the "Notifikasi" button
+
+2023-08-23 04:19:22 - [TEST_STEP][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:19:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' are matched.
+
+2023-08-23 04:19:23 - [MESSAGE][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:19:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list page displays the product: SCENARIO The notification list page displays the product
+
+2023-08-23 04:19:23 - [TEST_STEP][PASSED] - the seller clicks on the "Penawaran produk" notification: the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' is clicked on
+
+2023-08-23 04:19:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:27 - [MESSAGE][PASSED] - the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:19:27 - [TEST_STEP][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:19:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/div_Offer_Description_1' are matched.
+
+2023-08-23 04:19:27 - [MESSAGE][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:19:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The seller accepts a product offer: SCENARIO The seller accepts a product offer
+
+2023-08-23 04:19:27 - [TEST_STEP][PASSED] - the seller clicks on the "Terima" button: the seller clicks on the "Terima" button
+
+2023-08-23 04:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/label_Accept_Button_1' is clicked on
+
+2023-08-23 04:19:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:32 - [MESSAGE][PASSED] - the seller clicks on the "Terima" button
+
+2023-08-23 04:19:32 - [TEST_STEP][PASSED] - the the negotiated product item displays "Penawaran produk diterima" text: the the negotiated product item displays "Penawaran produk diterima" text
+
+2023-08-23 04:19:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/h6_Offer_Status_1' are matched.
+
+2023-08-23 04:19:32 - [MESSAGE][PASSED] - the the negotiated product item displays "Penawaran produk diterima" text
+
+2023-08-23 04:19:32 - [TEST_STEP][PASSED] - the the negotiated product item displays "Status" and "Hubungi di" button: the the negotiated product item displays "Status" and "Hubungi di" button
+
+2023-08-23 04:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Offer_List/label_Status_Button_1' is present
+
+2023-08-23 04:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Offer_List/a_Whatsapp_1' is present
+
+2023-08-23 04:19:33 - [MESSAGE][PASSED] - the the negotiated product item displays "Status" and "Hubungi di" button
+
+2023-08-23 04:19:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The seller cancels a product offer: SCENARIO The seller cancels a product offer
+
+2023-08-23 04:19:33 - [TEST_STEP][PASSED] - the seller clicks "Status" button: the seller clicks "Status" button
+
+2023-08-23 04:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/label_Status_Button_1' is clicked on
+
+2023-08-23 04:19:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:38 - [MESSAGE][PASSED] - the seller clicks "Status" button
+
+2023-08-23 04:19:38 - [TEST_STEP][PASSED] - the seller clicks "Batalkan transaksi" button and clicks "Kirim": the seller clicks "Batalkan transaksi" button and clicks "Kirim"
+
+2023-08-23 04:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/button_Cancel_Offer_1' is clicked on
+
+2023-08-23 04:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/input_Kirim_Button' is clicked on
+
+2023-08-23 04:19:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:19:43 - [MESSAGE][PASSED] - the seller clicks "Batalkan transaksi" button and clicks "Kirim"
+
+2023-08-23 04:19:43 - [TEST_STEP][PASSED] - the the negotiated product item displays "Penjualan dibatalkan" text: the the negotiated product item displays "Penjualan dibatalkan" text
+
+2023-08-23 04:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/h6_Offer_Status_1' are matched.
+
+2023-08-23 04:19:44 - [MESSAGE][PASSED] - the the negotiated product item displays "Penjualan dibatalkan" text
+
+2023-08-23 04:19:44 - [MESSAGE][PASSED] - Feature file: 'Include/features/10 Seller Approve Then Cancel Offer.feature' was passed
+
+2023-08-23 04:19:44 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:19:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:19:45 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:19:45 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/11 Seller Approve Then Sell Product" time="83.387" classname="Test Cases/01 Web/02 Feature Files/11 Seller Approve Then Sell Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:19:45 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/11 Seller Approve Then Sell Product: Test Cases/01 Web/02 Feature Files/11 Seller Approve Then Sell Product
+
+2023-08-23 04:19:45 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:19:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:19:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:19:45 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:19:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:19:46 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:19:48 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:19:48 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:19:48 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/11 Seller Approve Offer Then Sell Product.feature"): Feature file: 'Include/features/11 Seller Approve Offer Then Sell Product.feature' was passed
+
+2023-08-23 04:19:48 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/11 Seller Approve Offer Then Sell Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739188626'...
+
+2023-08-23 04:19:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list on the navbar displays the product: SCENARIO The notification list on the navbar displays the product
+
+2023-08-23 04:19:49 - [TEST_STEP][PASSED] - the buyer negotiates for a product: the buyer negotiates for a product
+
+2023-08-23 04:19:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/08 Buyer Negotiate Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739189918'...
+
+2023-08-23 04:19:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Buyer negotiates the price for a product: SCENARIO Buyer negotiates the price for a product
+
+2023-08-23 04:19:50 - [TEST_STEP][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=: the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:19:55 - [MESSAGE][PASSED] - Text 'QAE10_GR03_buyer@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:19:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:20:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:20:03 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:20:03 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:20:03 - [MESSAGE][PASSED] - the buyer is logged in QAE10_GR03_buyer@binar.com QJblfja5Cso=
+
+2023-08-23 04:20:03 - [TEST_STEP][PASSED] - the user navigates to the product page: the user navigates to the product page
+
+2023-08-23 04:20:05 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/products/31249' successfully
+
+2023-08-23 04:20:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:20:10 - [MESSAGE][PASSED] - the user navigates to the product page
+
+2023-08-23 04:20:10 - [TEST_STEP][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button: the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' is clicked on
+
+2023-08-23 04:20:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:14 - [MESSAGE][PASSED] - the buyer clicks on the "Saya tertarik dan ingin nego" button
+
+2023-08-23 04:20:14 - [TEST_STEP][PASSED] - enters a negotiated offer price 3000000: enters a negotiated offer price 3000000
+
+2023-08-23 04:20:17 - [MESSAGE][PASSED] - Text '3000000' is set on object 'Object Repository/Page_SecondHand/Product_Page/input_Offer_Price'
+
+2023-08-23 04:20:17 - [MESSAGE][PASSED] - enters a negotiated offer price 3000000
+
+2023-08-23 04:20:17 - [TEST_STEP][PASSED] - clicks the "Kirim" button: clicks the "Kirim" button
+
+2023-08-23 04:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/input_Send_Offer' is clicked on
+
+2023-08-23 04:20:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:22 - [MESSAGE][PASSED] - clicks the "Kirim" button
+
+2023-08-23 04:20:22 - [TEST_STEP][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual": the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:20:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Product_Page/button_Negotiate' are matched.
+
+2023-08-23 04:20:22 - [MESSAGE][PASSED] - the button becomes disabled and the button text becomes "Menunggu respon penjual"
+
+2023-08-23 04:20:22 - [MESSAGE][PASSED] - Feature file: 'Include/features/08 Buyer Negotiate Product.feature' was passed
+
+2023-08-23 04:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Profil Saya' is clicked on
+
+2023-08-23 04:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/button_Keluar' is clicked on
+
+2023-08-23 04:20:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:28 - [MESSAGE][PASSED] - the buyer negotiates for a product
+
+2023-08-23 04:20:28 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:20:32 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:20:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:20:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:20:41 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:20:41 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:20:41 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:20:41 - [TEST_STEP][PASSED] - clicks on the "Notifikasi" button: clicks on the "Notifikasi" button
+
+2023-08-23 04:20:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-23 04:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/a_Notifikasi_Button' is clicked on
+
+2023-08-23 04:20:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:45 - [MESSAGE][PASSED] - clicks on the "Notifikasi" button
+
+2023-08-23 04:20:45 - [TEST_STEP][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:20:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' are matched.
+
+2023-08-23 04:20:46 - [MESSAGE][PASSED] - the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:20:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The notification list page displays the product: SCENARIO The notification list page displays the product
+
+2023-08-23 04:20:46 - [TEST_STEP][PASSED] - the seller clicks on the "Penawaran produk" notification: the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Navbar/div_Notification_Text_1' is clicked on
+
+2023-08-23 04:20:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:50 - [MESSAGE][PASSED] - the seller clicks on the "Penawaran produk" notification
+
+2023-08-23 04:20:50 - [TEST_STEP][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000: the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:20:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/div_Offer_Description_1' are matched.
+
+2023-08-23 04:20:51 - [MESSAGE][PASSED] - the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000
+
+2023-08-23 04:20:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The seller accepts a product offer: SCENARIO The seller accepts a product offer
+
+2023-08-23 04:20:51 - [TEST_STEP][PASSED] - the seller clicks on the "Terima" button: the seller clicks on the "Terima" button
+
+2023-08-23 04:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/label_Accept_Button_1' is clicked on
+
+2023-08-23 04:20:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:20:55 - [MESSAGE][PASSED] - the seller clicks on the "Terima" button
+
+2023-08-23 04:20:55 - [TEST_STEP][PASSED] - the the negotiated product item displays "Penawaran produk diterima" text: the the negotiated product item displays "Penawaran produk diterima" text
+
+2023-08-23 04:20:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/h6_Offer_Status_1' are matched.
+
+2023-08-23 04:20:56 - [MESSAGE][PASSED] - the the negotiated product item displays "Penawaran produk diterima" text
+
+2023-08-23 04:20:56 - [TEST_STEP][PASSED] - the the negotiated product item displays "Status" and "Hubungi di" button: the the negotiated product item displays "Status" and "Hubungi di" button
+
+2023-08-23 04:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Offer_List/label_Status_Button_1' is present
+
+2023-08-23 04:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SecondHand/Offer_List/a_Whatsapp_1' is present
+
+2023-08-23 04:20:56 - [MESSAGE][PASSED] - the the negotiated product item displays "Status" and "Hubungi di" button
+
+2023-08-23 04:20:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The seller marks a product as sold: SCENARIO The seller marks a product as sold
+
+2023-08-23 04:20:56 - [TEST_STEP][PASSED] - the seller clicks "Status" button: the seller clicks "Status" button
+
+2023-08-23 04:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/label_Status_Button_1' is clicked on
+
+2023-08-23 04:21:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:21:01 - [MESSAGE][PASSED] - the seller clicks "Status" button
+
+2023-08-23 04:21:01 - [TEST_STEP][PASSED] - the seller clicks "Berhasil terjual" button and clicks "Kirim": the seller clicks "Berhasil terjual" button and clicks "Kirim"
+
+2023-08-23 04:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/button_Success_Offer_1' is clicked on
+
+2023-08-23 04:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Offer_List/input_Kirim_Button' is clicked on
+
+2023-08-23 04:21:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-23 04:21:07 - [MESSAGE][PASSED] - the seller clicks "Berhasil terjual" button and clicks "Kirim"
+
+2023-08-23 04:21:07 - [TEST_STEP][PASSED] - the the negotiated product item displays "Berhasil terjual" text: the the negotiated product item displays "Berhasil terjual" text
+
+2023-08-23 04:21:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SecondHand/Offer_List/h6_Offer_Status_1' are matched.
+
+2023-08-23 04:21:07 - [MESSAGE][PASSED] - the the negotiated product item displays "Berhasil terjual" text
+
+2023-08-23 04:21:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/11 Seller Approve Offer Then Sell Product.feature' was passed
+
+2023-08-23 04:21:07 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:21:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:21:08 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:21:08 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01 Web/02 Feature Files/12 Seller Delete Product" time="33.127" classname="Test Cases/01 Web/02 Feature Files/12 Seller Delete Product" status="PASSED">
+         <system-out><![CDATA[2023-08-23 04:21:08 - [TEST_CASE][PASSED] - Test Cases/01 Web/02 Feature Files/12 Seller Delete Product: Test Cases/01 Web/02 Feature Files/12 Seller Delete Product
+
+2023-08-23 04:21:08 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2023-08-23 04:21:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-23 04:21:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 04:21:08 - [MESSAGE][INFO] - Action delay is set to 1,000 milliseconds
+
+2023-08-23 04:21:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 04:21:09 - [TEST_STEP][PASSED] - navigateToUrl("https://secondhand.binaracademy.org/"): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:21:11 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-08-23 04:21:11 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2023-08-23 04:21:12 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/12 Seller Delete Product.feature"): Feature file: 'Include/features/12 Seller Delete Product.feature' was passed
+
+2023-08-23 04:21:12 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/12 Seller Delete Product.feature' and extract report to folder: 'C:\Users\netiz\git\kel03_web\Reports\20230823_040154\Feature Complete\20230823_040155/cucumber_report/1692739272011'...
+
+2023-08-23 04:21:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO The seller deletes a product: SCENARIO The seller deletes a product
+
+2023-08-23 04:21:13 - [TEST_STEP][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==: the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/a_Masuk' is clicked on
+
+2023-08-23 04:21:17 - [MESSAGE][PASSED] - Text 'QAE10_GR03_seller@binar.com' is set on object 'Object Repository/Page_SecondHand/input_Email_useremail'
+
+2023-08-23 04:21:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SecondHand/input_Password_userpassword'
+
+2023-08-23 04:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/input_Password_commit' is clicked on
+
+2023-08-23 04:21:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:21:26 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-08-23 04:21:26 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-08-23 04:21:26 - [MESSAGE][PASSED] - the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ==
+
+2023-08-23 04:21:26 - [TEST_STEP][PASSED] - the user navigates to the to-be-deleted product page: the user navigates to the to-be-deleted product page
+
+2023-08-23 04:21:27 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/products/31250' successfully
+
+2023-08-23 04:21:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:21:32 - [MESSAGE][PASSED] - the user navigates to the to-be-deleted product page
+
+2023-08-23 04:21:32 - [TEST_STEP][PASSED] - the seller clicks "Delete" button: the seller clicks "Delete" button
+
+2023-08-23 04:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SecondHand/Product_Page/a_Delete' is clicked on
+
+2023-08-23 04:21:34 - [MESSAGE][PASSED] - the seller clicks "Delete" button
+
+2023-08-23 04:21:34 - [TEST_STEP][PASSED] - the page redirects to "Daftar Jual Saya" page: the page redirects to "Daftar Jual Saya" page
+
+2023-08-23 04:21:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-23 04:21:39 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/products'
+
+2023-08-23 04:21:39 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/products' and expected text 'https://secondhand.binaracademy.org/products' are matched 
+
+2023-08-23 04:21:39 - [MESSAGE][PASSED] - the page redirects to "Daftar Jual Saya" page
+
+2023-08-23 04:21:39 - [TEST_STEP][PASSED] - the deleted product doesn't exist in the product list: the deleted product doesn't exist in the product list
+
+2023-08-23 04:21:40 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 04:21:40 - [MESSAGE][PASSED] - Web element with id: 'Product Item Deleted' located by 'By.xpath: //h5[contains(text(), 'Notebook 1692738975979')]' is not present after '10' second(s)
+
+2023-08-23 04:21:40 - [MESSAGE][PASSED] - the deleted product doesn't exist in the product list
+
+2023-08-23 04:21:40 - [MESSAGE][PASSED] - Feature file: 'Include/features/12 Seller Delete Product.feature' was passed
+
+2023-08-23 04:21:40 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-08-23 04:21:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-23 04:21:41 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-23 04:21:41 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-23 04:01:57 - [TEST_SUITE][FAILED] - Feature Complete: Test Cases/01 Web/02 Feature Files/07 User Search Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/07 User Search Product.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 07 User Search Product.run(07 User Search Product:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692738115695.run(TempTestSuite1692738115695.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-08-23 04:01:57 - [TEST_SUITE][FAILED] - Feature Complete: Test Cases/01 Web/02 Feature Files/07 User Search Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/07 User Search Product.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at 07 User Search Product.run(07 User Search Product:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692738115695.run(TempTestSuite1692738115695.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

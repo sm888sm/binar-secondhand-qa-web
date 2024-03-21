@@ -1,0 +1,181 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 29,
+        "name": "The notification list on the navbar displays the product",
+        "description": "",
+        "id": "seller-reject-product-offer;the-notification-list-on-the-navbar-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13117982400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the seller is logged in QAE10_GR03_seller@binar.com 4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QAE10_GR03_seller@binar.com",
+                  "offset": 24
+                },
+                {
+                  "val": "4IKJKomARpjPH7aiyRZ0CQ\u003d\u003d",
+                  "offset": 52
+                }
+              ],
+              "location": "Shared.loginSeller(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4509847200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on the \"Notifikasi\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickNotificationButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313154500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the notification on the navbar displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 64
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 94
+                }
+              ],
+              "location": "SellerRejectOffer.verifyNotificationDisplaysProduct(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "The notification list page displays the product",
+        "description": "",
+        "id": "seller-reject-product-offer;the-notification-list-page-displays-the-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4372747100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the seller clicks on the \"Penawaran produk\" notification",
+            "match": {
+              "location": "SellerRejectOffer.clickProductOnNotificationNavbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324686000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the notification list displays the product name, price Rp 5.000.000 and offer amount Rp 3.000.000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rp 5.000.000",
+                  "offset": 55
+                },
+                {
+                  "val": "Rp 3.000.000",
+                  "offset": 85
+                }
+              ],
+              "location": "SellerRejectOffer.clickProductOnNotificationPage(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Seller rejects a product offer",
+        "description": "",
+        "id": "seller-reject-product-offer;seller-rejects-a-product-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4746566500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the seller clicks on the \"Tolak\" button",
+            "match": {
+              "location": "SellerRejectOffer.clickAcceptButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397030600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the the negotiated product item displays \"Penawaran produk ditolak\" text",
+            "match": {
+              "location": "SellerRejectOffer.verifyRejectedProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Seller Reject Product Offer",
+    "description": "",
+    "id": "seller-reject-product-offer",
+    "keyword": "Feature",
+    "uri": "C:/Users/netiz/git/kel03_web/Include/features/09 Seller Reject Product Offer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
